@@ -26,6 +26,7 @@ module.exports = {
 			colors: {
 				orange: '#ED6100',
 				icons: '#454D5F',
+        footer:'#F7FAFC'
 			},
 		},
 	},
