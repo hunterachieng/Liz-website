@@ -5,6 +5,7 @@ import { FaLinkedinIn, FaFigma, FaTimes } from "react-icons/fa";
 import { BsMedium } from "react-icons/bs";
 import logo from "../../images/logo/logo-liz.svg";
 import smallLogo from "../../images/logo/Lizkagimbi.svg"
+import {NavLink as Link} from "react-router-dom";
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
@@ -15,10 +16,10 @@ const Navbar = () => {
   return (
     <nav className="flex justify-around flex-wrap bg-orange ">
       <div className="pt-2 ml-8">
-       {!active?  <img src={logo} alt="Liz logo" />:
+        <img src={logo} alt="Liz logo" className="sm:hidden xsm:hidden " />
         <img src={smallLogo} alt="Liz small logo"
-        className="pt-4"
-        />}
+        className="pt-5 lg:hidden md:hidden"
+        />
       </div>
       <button
         onClick={handleClick}
@@ -55,10 +56,10 @@ const Navbar = () => {
       {/* Fix the padding in the a tags 
       Fix active links
       */}
-        <a href="" >Work</a>
-        <a href="">About</a>
-        <a href="">Resume</a>
-        <a href="">Contacts</a>
+        <Link to="/" className={({isActive})=>(isActive? "text-darkBlue":"text-white")}  >Work</Link>
+        <Link to="/about" className={({isActive})=>(isActive? "text-darkBlue":"text-white")} >About</Link>
+        <Link to="/resume" className={({isActive})=>(isActive? "text-darkBlue":"text-white")} >Resume</Link>
+        <Link to="/contacts" className={({isActive})=>(isActive? "text-darkBlue":"text-white")} >Contacts</Link>
       </div>
       <div
         className={`${
@@ -77,10 +78,11 @@ const Navbar = () => {
           }`
             }
       >
-        <a href="">Work</a>
-        <a href="">About</a>
-        <a href="">Resume</a>
-        <a href="">Contacts</a>
+        {/* className={({isActive})=>(isActive? "text-text":"text-white")} */}
+        <Link to="/" className={({isActive})=>(isActive? "text-darkBlue":"text-white")}  >Work</Link>
+        <Link to="/about" className={({isActive})=>(isActive? "text-darkBlue":"text-white")} >About</Link>
+        <Link to="/resume" className={({isActive})=>(isActive? "text-darkBlue":"text-white")} >Resume</Link>
+        <Link to="/contacts" className={({isActive})=>(isActive? "text-darkBlue":"text-white")} >Contacts</Link>
       </div>
 
       <div
