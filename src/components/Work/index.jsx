@@ -12,7 +12,7 @@ const Work = () => {
       heading: "AZA Finance Automation",
       content: "Simplifying Onboarding Journey using Open source API",
       imageUrl: automation,
-      backgroundColor:"cardBlue"
+      backgroundColor:"bg-cardBlue"
     },
     {
         id:2,
@@ -20,21 +20,21 @@ const Work = () => {
       content:
         "How might we design the Masoko Vendorplatform to enable merchants to sell their products and services with ease?",
       imageUrl: masoko,
-      backgroundColor:"cardPink"
+      backgroundColor:"bg-cardPink"
     },
     {
         id:3,
         heading:"My prosper App",
         content:"A case of bring purpose through technology, expertise and mentorship during COVID 19 Pandemic",
         imageUrl:prosper,
-        backgroundColor:"cardPurple"
+        backgroundColor:"bg-cardPurple"
     },
     {
         id:4,
         heading:"My Voice",
         content:"Designing for marginalized communities with low literacy (written and spoken) using simple relatable visuals",
         imageUrl:voice,
-        backgroundColor:"cardGreen"
+        backgroundColor:"bg-cardGreen"
     }
   ];
   return (
