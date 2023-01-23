@@ -3,7 +3,7 @@ import {FaLongArrowAltRight} from "react-icons/fa"
 
 const WorkCases = ({imageUrl,heading,content, bgColor})=>{
     return(
-        <div className={`bg-${bgColor}  items-center`}>
+        <div className={`${bgColor}  items-center`}>
         <div className={`w-7/12 text-white  flex flex-col text-left my-10 mx-24 sm:w-10/12 sm:mx-4 xsm:w-10/12 xsm:mx-4 md:w-10/12 md:mx-4`}>
             <h1 className="font-bold" >{heading}</h1>
             <br/>
