@@ -7,6 +7,8 @@ import Resume from './components/Resume';
 import Layout from './components/Layout';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import ProsperCase from './components/Prosper';
+
 
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
         <Route path='/about' exact element={<About/>}/>
         <Route path='/resume' exact element={<Resume/>}/>
         <Route path='/contacts' exact element={<Contacts/>}/>
+        <Route path='/prosper-case' exact element={<ProsperCase/>}/>
 
       </Routes>
      <Footer/>
