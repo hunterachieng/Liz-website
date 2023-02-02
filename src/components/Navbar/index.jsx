@@ -14,7 +14,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex justify-around flex-wrap bg-orange ">
+    <nav className="flex justify-between flex-wrap bg-orange ">
       <div className="pt-2 ml-8">
         <img src={logo} alt="Liz logo" className="sm:hidden xsm:hidden " />
         <img src={smallLogo} alt="Liz small logo"
@@ -88,9 +88,9 @@ const Navbar = () => {
       <div
         className={` flex  justify-center items-center   space-x-2 w-1/6 sm:hidden xsm:hidden`}
       >
-        <BsMedium className="bg-icons p-1 text-white text-2xl rounded-full" />
+        {/* <BsMedium className="bg-icons p-1 text-white text-2xl rounded-full" />
         <FaLinkedinIn className="bg-icons p-1 text-white text-2xl rounded-full" />
-        <FaFigma className="bg-icons p-1 text-white text-2xl rounded-full" />
+        <FaFigma className="bg-icons p-1 text-white text-2xl rounded-full" /> */}
       </div>
       {/* ${
           active === false ? "" : "hidden"
