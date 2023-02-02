@@ -50,7 +50,7 @@ Doing this exercise with stakeholders cemented trust and confidence in what we w
             <p className="text-2xl text-icons font-bold w-3/6 py-2 sm:w-full xsm:w-full">
             I am preparing for an interview later in the afternoon and I need to prep with an expert in the industry
             </p>
-            <img src={userFlow} alt="User Flow" className=""/>
+            <img src={userFlow} alt="User Flow" className="w-full"/>
            </div>
            <div>
            <h1 className="text-personaKamau text-2xl font-bold pt-2">Step 4: Sketches (Lo-fi wireframes)</h1>
