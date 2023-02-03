@@ -15,6 +15,9 @@ import plan from "../../images/work-images/plan.svg";
 import insights from  "../../images/work-images/insights.svg";
 import major from  "../../images/work-images/major.svg";
 import connect from  "../../images/work-images/connect.svg"
+import masoko from "../../images/work-images/masoko.svg";
+import voice from "../../images/work-images/voice.svg";
+import automation from "../../images/work-images/automation.svg"
 
 const Process = ()=>{
     return(
@@ -163,19 +166,41 @@ overall mental model
     <br/>
     <img src={major} alt="Major Screens" className="w-screen"/>
     <br/>
-    <div className="w-full bg-connect items-center">
+    <div className="w-full bg-connect flex items-center justify-center flex-col">
     <img src={connect} alt="Letus Connect" className="mx-auto pt-10" />
-    <button className="border border-darkBlue py-2 px-4 text-darkBlue mx-auto">Contact me</button>
+    <button className="border border-darkBlue py-2 px-4 text-darkBlue mx-auto mb-10">Contact me</button>
+    <br/>
+    <br/>
     </div>
     <br/>
 
-    <div>
-    <button className="border bg-darkBlue py-2 px-4 text-darkBlue">Contact me</button>
-    <button className="border border-darkBlue py-2 px-4 text-white underline">Resume</button>
+    <div className="flex items-center justify-center">
+    <button className="border bg-darkBlue py-2 px-4 text-white underline font-bold">View next casestudy</button>
+    <button className="border border-darkBlue py-2 px-10 text-darkBlue underline font-bold ml-2">Resume</button>
     </div>
     <br/>
-    <h1 className="text-personaKamau text-2xl font-bold pt-2 mx-auto">View More</h1>
-          
+
+    <h1 className="text-personaKamau text-2xl font-bold pt-2 text-center">View More</h1>
+    <br/>
+         <div className="grid grid-cols-3 gap-8 sm:grid-cols-1 xsm:grid-cols-1 ">
+           <div className="bg-cardPink flex items-center justify-center flex-col ">
+            {/* <br/> */}
+            <a href="" className="underline text-white text-lg font-bold">Masoko Vendor Platform</a>
+            <br/>
+           <img src={masoko} alt="Masoko" className=""/>
+           </div>
+           <div className="bg-cardGreen flex items-center justify-center flex-col "> 
+           <br/>
+           <a href="" className="underline text-white text-lg font-bold">My Voice</a>
+           <br/>
+           <img src={voice} alt="Voice"/>
+           </div>
+           <div className="bg-cardBlue flex items-center justify-center flex-col ">
+           <a href="" className="underline text-white text-lg font-bold">AZA Finance Automation</a>
+           <br/>
+           <img src={automation} alt="AZA" />
+           </div>
+            </div> 
 
         </div>
     )

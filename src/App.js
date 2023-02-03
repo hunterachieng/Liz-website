@@ -14,7 +14,7 @@ import ProsperCase from './components/Prosper';
 function App() {
   return (
     <Router>
-      <Navbar/>
+      
       <Routes>
         <Route path='/' exact element={<Work/>}/>
         <Route path='/about' exact element={<About/>}/>
@@ -23,7 +23,7 @@ function App() {
         <Route path='/prosper-case' exact element={<ProsperCase/>}/>
 
       </Routes>
-     <Footer/>
+   
     </Router>
   );
 }
