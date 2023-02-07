@@ -8,6 +8,7 @@ import Layout from './components/Layout';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ProsperCase from './components/Prosper';
+import Masoko from './components/Masoko';
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route path='/resume' exact element={<Resume/>}/>
         <Route path='/contacts' exact element={<Contacts/>}/>
         <Route path='/prosper-case' exact element={<ProsperCase/>}/>
+        <Route path='/masoko-case' exact element={<Masoko/>}/>
 
       </Routes>
    

@@ -39,7 +39,7 @@ const PersonaBanner = ({
             </div>
           </div>
           <br/>
-          <div className="grid grid-cols-2 gap-0 w-full ">
+          <div className="grid grid-cols-2 gap-0 w-12/12">
             <div className="flex ">
               <FaUserGraduate />
               <p className="pl-2">{education}</p>
