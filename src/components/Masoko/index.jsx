@@ -5,7 +5,10 @@ import masoko from "../../images/work-images/masoko.svg";
 import team from "../../images/case-studies/masoko-case.svg";
 import challenge from "../../images/work-images/masoko-challenge.svg";
 import listing from "../../images/work-images/masoko-product-listing.svg"
-import journey from "../../images/work-images/masoko-vendor-journey.svg"
+import journey from "../../images/work-images/masoko-vendor-journey.svg";
+import signIn from "../../images/work-images/masoko-sign-in.svg";
+import singleProduct from "../../images/work-images/masoko-single-product.svg";
+import productDetails from "../../images/work-images/product-masoko-details.svg";
 
 const Masoko = () => {
   return (
@@ -186,6 +189,32 @@ const Masoko = () => {
           <p className="text-taskHeading py-5 w-4/12 ">
            The workshop participants included various stakeholders from the Masoko vendor management team as well as the design and development team from Masoko
           </p>
+      </div>
+      <div className="bg-grey px-8">
+      <h1 className="text-orange font-bold text-2xl">
+            The Outcome
+          </h1>
+          <p className="text-taskHeading py-5 w-4/12 ">
+The idea was to validate as quickly as possible and Articulate the biggest problem with the current platform
+
+          </p>
+          <h1 className="text-personaFaith font-bold text-2xl">
+            Onboarding Journey 
+          </h1>
+          <p className="text-darkBlue text-xl py-5">The process</p>
+          <p className="w-5/12 pb-5">Most of the onboarding process required a human touch point with the Masoko team, either in person or on phone call: <span className="text-orange">
+            We simplified the process by automating all the processes by using Government registration tools for verification</span></p>
+            <div className="grid grid-cols-3 gap-2">
+              <img src={signIn} alt="Masoko SignIn" className="w-full"/>
+              <img src={productDetails} alt="Masoko Product Details" className="w-full"/>
+              <img src={singleProduct} alt="Masoko Single Product" className="w-full"/>
+            </div>
+            <br/>
+            <h1 className="text-personaKamau text-2xl">
+           Inventory Management 
+          </h1>
+          <br/>
+          <p className="text-darkBlue text-xl py-5">Products Description Error Handling</p>
       </div>
 
       <div>Hello</div>
