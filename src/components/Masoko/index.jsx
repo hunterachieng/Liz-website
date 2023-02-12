@@ -9,6 +9,23 @@ import journey from "../../images/work-images/masoko-vendor-journey.svg";
 import signIn from "../../images/work-images/masoko-sign-in.svg";
 import singleProduct from "../../images/work-images/masoko-single-product.svg";
 import productDetails from "../../images/work-images/product-masoko-details.svg";
+import productListing from "../../images/work-images/product-listing.svg";
+import editSingle from "../../images/work-images/Edit-Single-Product.svg";
+import sellYours from "../../images/work-images/Sell-Yours.svg";
+import sellSingle from "../../images/work-images/Sell-Yours-single-Product.svg";
+import orderManagement from "../../images/work-images/order-management.svg";
+import orderSlip from "../../images/work-images/order-print-slip.svg";
+import bulkOrder from "../../images/work-images/bulk-order.svg";
+import singleOrder from "../../images/work-images/single-order.svg";
+import singleOrderItem from "../../images/work-images/single-order-item.svg";
+import payments from "../../images/work-images/payments.svg";
+import paymentsDetails from "../../images/work-images/Payments-Details.svg";
+import statements from "../../images/work-images/statement-download.svg";
+import summaryPayment from "../../images/work-images/summary-payment.svg";
+import connect from  "../../images/work-images/connect.svg";
+import voice from "../../images/work-images/voice.svg";
+import automation from "../../images/work-images/automation.svg";
+import prosper from "../../images/work-images/prosper.svg"
 
 const Masoko = () => {
   return (
@@ -180,21 +197,22 @@ const Masoko = () => {
           </h1>
           <h1 className="text-darkBlue  text-xl">The process</h1>
 
-          <p className="text-taskHeading py-5 w-4/12 ">
+          <p className="text-taskHeading py-5 w-4/12 md:w-full sm:w-full xsm:w-full ">
            The research team facilitated a one day design workshop after the UX study in order to share lessons learned and agree on the features of the MVP.
           </p>
           <h2 className="text-personaFaith">Vendor journey</h2>
           <img src={journey} alt="Masoko Vendor Journey" className="px-8 w-full"/>
          
-          <p className="text-taskHeading py-5 w-4/12 ">
+          <p className="text-taskHeading py-5 w-4/12 md:w-full sm:w-full xsm:w-full">
            The workshop participants included various stakeholders from the Masoko vendor management team as well as the design and development team from Masoko
           </p>
       </div>
-      <div className="bg-grey px-8">
+     <div className="bg-grey">
+     <div className=" px-8">
       <h1 className="text-orange font-bold text-2xl">
             The Outcome
           </h1>
-          <p className="text-taskHeading py-5 w-4/12 ">
+          <p className="text-taskHeading py-5 w-4/12 md:w-full sm:w-full xsm:w-full">
 The idea was to validate as quickly as possible and Articulate the biggest problem with the current platform
 
           </p>
@@ -202,9 +220,9 @@ The idea was to validate as quickly as possible and Articulate the biggest probl
             Onboarding Journey 
           </h1>
           <p className="text-darkBlue text-xl py-5">The process</p>
-          <p className="w-5/12 pb-5">Most of the onboarding process required a human touch point with the Masoko team, either in person or on phone call: <span className="text-orange">
+          <p className="w-5/12 pb-5 md:w-full sm:w-full xsm:w-full">Most of the onboarding process required a human touch point with the Masoko team, either in person or on phone call: <span className="text-orange">
             We simplified the process by automating all the processes by using Government registration tools for verification</span></p>
-            <div className="grid grid-cols-3 gap-2">
+            <div className="grid grid-cols-3 gap-2 sm:grid-cols-1 xsm:grid-cols-1">
               <img src={signIn} alt="Masoko SignIn" className="w-full"/>
               <img src={productDetails} alt="Masoko Product Details" className="w-full"/>
               <img src={singleProduct} alt="Masoko Single Product" className="w-full"/>
@@ -215,9 +233,100 @@ The idea was to validate as quickly as possible and Articulate the biggest probl
           </h1>
           <br/>
           <p className="text-darkBlue text-xl py-5">Products Description Error Handling</p>
+          <p className="text-lightGrey w-5/12 md:w-full sm:w-full xsm:w-full">Vendors have to contact Masoko support whenever they need to make any updates to their product, e.g for price, stock, 
+            description.: <span className="text-taskHeading">We introduced a <span className="text-personaFaith">sell as yours </span> feature that enabled vendors to sell similar products that meets
+            Masoko quality standards, hence reducing conflict in description between Masoko content team and the vendors</span>
+          </p>
+          <br/>
+          <div className="grid grid-cols-3 gap-2 sm:grid-cols-1 xsm:grid-cols-1">
+              <img src={productListing} alt="Vendor Product Listing" className="w-full"/>
+              <img src={editSingle} alt="Vendor edit single product" className="w-full"/>
+              <img src={sellYours} alt="Vendor sell your product" className="w-full"/>
+              <img src={sellSingle} alt="Vendor sell single  product" className="w-full"/>
+            </div>
+            <br/>
+            <h1 className="text-personaKamau text-2xl">
+           Order Management 
+          </h1>
+          <br/>
+          <p className="text-darkBlue text-xl py-5">Lack order progression</p>
+          <p className="text-lightGrey w-5/12 md:w-full sm:w-full xsm:w-full">
+            Vendors are unable to clearly see order progression on the platform from the time a new order is made to when it is delivered to the client:
+             <span className="text-taskHeading">
+              We introduced order status and new order tags to reduce the frustration vendors felt not being able to view order status and reason 
+              for return. In addition, each order received came with a packing slip solely for a particular order and not payment
+             </span>
+          </p>
+          <br/>
+          <div className="grid grid-cols-3 gap-2 sm:grid-cols-1 xsm:grid-cols-1">
+              <img src={orderManagement} alt="Order Management" className="w-full"/>
+              <img src={bulkOrder} alt="Bulk Order" className="w-full"/>
+              <img src={singleOrder} alt="Single Order" className="w-full"/>
+              <img src={singleOrderItem} alt="Single Order Item" className="w-full"/>
+              <img src={orderSlip} alt="Single Order Item" className="w-full"/>
+            </div>
+            <br/>
+            <h1 className="text-personaKamau text-2xl">
+           Payment Management 
+          </h1>
+          <br/>
+          <p className="text-darkBlue text-xl py-5">Difficulties in pyments reconciliation</p>
+          <p className="text-lightGrey w-5/12 md:w-full sm:w-full xsm:w-full">
+            The structure of the account statements makes it difficult to reconcile payments. Vendors are unable to match a 
+            payment to a particular order: 
+             <span className="text-taskHeading">
+             We introduced a payment grid on the platform that was simple and contained relevant payment information. additionaly we restructured 
+             the account statements to be an alignment with orders received in a particular duration of time.
+             </span>
+          </p>
+          <br/>
+          <div className="grid grid-cols-3 gap-2 sm:grid-cols-1 xsm:grid-cols-1">
+              <img src={payments} alt="Payments" className="w-full"/>
+              <img src={paymentsDetails} alt="Payment Details" className="w-full"/>
+              <img src={summaryPayment} alt="Payment Summary" className="w-full"/>
+              <img src={statements} alt="Statements" className="w-full"/>
+            </div>
       </div>
+     </div>
+     <div className="w-full bg-connect flex items-center justify-center flex-col">
+    <img src={connect} alt="Letus Connect" className="mx-auto pt-10" />
+    <button className="border border-darkBlue py-2 px-4 text-darkBlue mx-auto mb-10">Contact me</button>
+    <br/>
+    <br/>
+    </div>
+    <br/>
+    <div className="flex items-center justify-center">
+    <button className="border bg-darkBlue py-2 px-4 text-white underline font-bold">View next casestudy</button>
+    <button className="border border-darkBlue py-2 px-10 text-darkBlue underline font-bold ml-2">Resume</button>
+    </div>
+    <br/>
 
-      <div>Hello</div>
+    <h1 className="text-personaKamau text-2xl font-bold pt-2 text-center">View More</h1>
+    <br/>
+         <div className="grid grid-cols-3 gap-8 sm:grid-cols-1 xsm:grid-cols-1 ">
+          
+           <div className="bg-cardGreen flex items-center justify-center flex-col "> 
+           <br/>
+           <a href="" className="underline text-white text-lg font-bold">My Voice</a>
+           <br/>
+           <img src={voice} alt="Voice"/>
+           </div>
+           <div className="bg-cardBlue flex items-center justify-center flex-col ">
+           <a href="" className="underline text-white text-lg font-bold">AZA Finance Automation</a>
+           <br/>
+           <img src={automation} alt="AZA" />
+           </div>
+           <div className="bg-cardPurple flex items-center justify-center flex-col ">
+            {/* <br/> */}
+            <a href="" className="underline text-white text-lg font-bold">My prosper App</a>
+            <br/>
+           <img src={prosper} alt="Prosper" className=""/>
+           </div>
+            </div> 
+            <br/>
+            
+
+     
     </Layout>
   );
 };
