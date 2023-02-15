@@ -80,7 +80,7 @@ const ProsperCase = () => {
     },
   ];
   return (
-    <>
+    <Layout>
       <Banner
         heading="My Prosper App"
         content="A case of bringing purpose through technology, expertise and mentorship during COVID 19 Pandemic"
@@ -133,7 +133,7 @@ We would like to scale the ideas by building a platform that connects people loo
       />
       <ResearchFindings/>
       <Process/>
-    </>
+    </Layout>
   );
 };
 export default ProsperCase;

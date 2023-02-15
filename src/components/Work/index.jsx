@@ -45,30 +45,36 @@ const Work = () => {
     }
   ];
   return (
-    <div>
-      <div className="items-start text-text w-1/3 ml-80  text-justify mt-4 sm:ml-2 sm:w-full sm:text-left md:ml-20 md:w-10/12 md:text-left xsm:w-full xsm:ml-2">
-        <h1 className="text-3xl font-bold sm:text-2xl xsm:text-xl">Product Designer & Researcher</h1>
-        <p className="text-2xl sm:text-lg leading-10 xsm:text-lg xsm:w-11/12 xsm:leading-7">
+    <>
+      <div className="bg-icons px-8">
+      <div className="items-start text-text w-1/3   text-justify mt-4 sm:ml-2 sm:w-full sm:text-left md:ml-20 md:w-10/12 md:text-left xsm:w-full xsm:ml-2">
+        <h1 className="text-3xl text-personaFaith font-bold sm:text-2xl xsm:text-xl">LIZ KAGIMBI</h1>
+        <br/>
+        <h1 className="font-bold text-white">Product Designer &amp; Researcher</h1>
+        <br/>
+        <p className="text-white">
           I believe every experience is an opportunity to understand ourselves
           better, I am a Product Designer and Researcher based in Nairobi, Kenya
         </p>
         <br />
         <br/>
-        <p className="text-2xl sm:text-lg xsm:text-lg xsm:w-11/12">
+        <p className=" text-white">
           Currently designing for impact and Empowering girls venture into tech
         </p>
         <br />
 
-        <button className="text-white bg-darkBlue px-8 py-2 items-center rounded font-bold">
-          Resume
+        <button className="text-white border border-darkBlue px-8 py-2 items-center rounded font-bold">
+         Let&apos;s Connect
         </button>
+      </div>
       </div>
       <FaLongArrowAltDown className="m-auto text-3xl text-text"/>
       <div className="grid grid-cols-2 gap-4 mx-auto w-10/12 mt-5 sm:grid-cols-1 sm:mx-2 sm:w-11/12 sm:gap-2  xsm:grid-cols-1 xsm:mx-2 xsm:w-11/12 xsm:gap-2">
         {data.map(item=>
             <Link to={item.link}><WorkCases heading={item.heading} content={item.content} imageUrl={item.imageUrl} key={item.id} bgColor={item.backgroundColor}/></Link>)}
       </div>
-    </div>
+      <br/>
+    </>
   );
 };
 export default Work;

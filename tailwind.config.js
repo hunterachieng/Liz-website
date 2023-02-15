@@ -32,6 +32,7 @@ module.exports = {
         white:"#ffffff",
         bannerText:"#003E8E",
         grey:"#F6FAFE",
+        lightGrey:"#848484",
 		cardBlue:"#24599D",
 		cardPink:"#C01C61",
 		cardPurple:"#93448F",
