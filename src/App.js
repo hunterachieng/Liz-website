@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import ProsperCase from './components/Prosper';
 import Masoko from './components/Masoko';
 import AzaCase from './components/Aza';
+import Voice from './components/Voice';
 
 
 
@@ -25,6 +26,7 @@ function App() {
         <Route path='/prosper-case' exact element={<ProsperCase/>}/>
         <Route path='/masoko-case' exact element={<Masoko/>}/>
         <Route path='/aza-case' exact element={<AzaCase/>}/>
+        <Route path='/voice-case' exact element={<Voice/>}/>
 
       </Routes>
    

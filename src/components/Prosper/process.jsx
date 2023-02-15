@@ -182,7 +182,7 @@ overall mental model
 
     <h1 className="text-personaKamau text-2xl font-bold pt-2 text-center">View More</h1>
     <br/>
-         <div className="grid grid-cols-3 gap-8 sm:grid-cols-1 xsm:grid-cols-1 ">
+         <div className="grid grid-cols-3 gap-8 px-8 sm:grid-cols-1 xsm:grid-cols-1 ">
            <div className="bg-cardPink flex items-center justify-center flex-col ">
             {/* <br/> */}
             <a href="" className="underline text-white text-lg font-bold">Masoko Vendor Platform</a>
