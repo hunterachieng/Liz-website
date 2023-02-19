@@ -46,7 +46,7 @@ const Work = () => {
   ];
   return (
     <>
-      <div className="bg-icons px-8">
+      <div className="bg-icons px-40">
       <div className="items-start text-text w-1/3   text-justify mt-4 sm:ml-2 sm:w-full sm:text-left md:ml-20 md:w-10/12 md:text-left xsm:w-full xsm:ml-2">
         <h1 className="text-3xl text-personaFaith font-bold sm:text-2xl xsm:text-xl">LIZ KAGIMBI</h1>
         <br/>

@@ -21,7 +21,7 @@ import automation from "../../images/work-images/automation.svg"
 
 const Process = ()=>{
     return(
-        <div className="px-8">
+        <div className="px-20">
             <h1 className="text-orange text-2xl font-bold">Our Process</h1>
             <h1 className="text-personaKamau text-2xl font-bold">Step 1: Task Mapping</h1>
             <p className="text-2xl text-icons w-3/6 py-2 sm:w-full xsm:w-full">Task mapping helped us assign tasks that will take advantage of each persona&apos;s 
@@ -182,7 +182,7 @@ overall mental model
 
     <h1 className="text-personaKamau text-2xl font-bold pt-2 text-center">View More</h1>
     <br/>
-         <div className="grid grid-cols-3 gap-8 px-8 sm:grid-cols-1 xsm:grid-cols-1 ">
+         <div className="grid grid-cols-3 gap-8 px-20 sm:grid-cols-1 xsm:grid-cols-1 ">
            <div className="bg-cardPink flex items-center justify-center flex-col ">
             {/* <br/> */}
             <a href="" className="underline text-white text-lg font-bold">Masoko Vendor Platform</a>
