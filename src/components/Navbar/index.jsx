@@ -14,7 +14,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex justify-between flex-wrap bg-orange ">
+    <nav className="flex justify-between flex-wrap  sm:bg-orange xsm:bg-orange">
       <div className="pt-2 ml-8">
         <img src={logo} alt="Liz logo" className="sm:hidden xsm:hidden " />
         <img src={smallLogo} alt="Liz small logo"
@@ -44,7 +44,7 @@ const Navbar = () => {
       <div
         className={` flex justify-evenly  
                 items-center  
-                text-white 
+                text-taskHeading
                 font-bold 
                 w-1/3 
                 sm:hidden
@@ -56,10 +56,10 @@ const Navbar = () => {
       {/* Fix the padding in the a tags 
       Fix active links
       */}
-        <Link to="/" className={({isActive})=>(isActive? "text-darkBlue":"text-white")}  >Work</Link>
-        <Link to="/about" className={({isActive})=>(isActive? "text-darkBlue":"text-white")} >About</Link>
-        <Link to="/resume" className={({isActive})=>(isActive? "text-darkBlue":"text-white")} >Resume</Link>
-        <Link to="/contacts" className={({isActive})=>(isActive? "text-darkBlue":"text-white")} >Contacts</Link>
+        <Link to="/" className={({isActive})=>(isActive? "text-darkBlue underline":"text-taskHeading underline")}  >Work</Link>
+        <Link to="/about" className={({isActive})=>(isActive? "text-darkBlue underline":"text-taskHeading underline")} >About</Link>
+        <Link to="/resume" className={({isActive})=>(isActive? "text-darkBlue underline":"text-taskHeading underline")} >Resume</Link>
+        <Link to="/contacts" className={({isActive})=>(isActive? "text-darkBlue underline":"text-taskHeading underline")} >Contacts</Link>
       </div>
       <div
         className={`${
@@ -68,7 +68,7 @@ const Navbar = () => {
             font-bold 
             flex-col
             h-screen
-            bg-orange
+          bg-orange
             w-full
             item-start
             text-2xl
@@ -79,10 +79,10 @@ const Navbar = () => {
             }
       >
         {/* className={({isActive})=>(isActive? "text-text":"text-white")} */}
-        <Link to="/" className={({isActive})=>(isActive? "text-darkBlue":"text-white")}  >Work</Link>
-        <Link to="/about" className={({isActive})=>(isActive? "text-darkBlue":"text-white")} >About</Link>
+        <Link to="/" className={({isActive})=>(isActive? "text-darkBlue ":"text-white")}  >Work</Link>
+        <Link to="/about" className={({isActive})=>(isActive? "text-darkBlue ":"text-white")} >About</Link>
         <Link to="/resume" className={({isActive})=>(isActive? "text-darkBlue":"text-white")} >Resume</Link>
-        <Link to="/contacts" className={({isActive})=>(isActive? "text-darkBlue":"text-white")} >Contacts</Link>
+        <Link to="/contacts" className={({isActive})=>(isActive? "text-darkBlue ":"text-white")} >Contacts</Link>
       </div>
 
       <div

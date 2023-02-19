@@ -46,7 +46,7 @@ const AzaCase = () => {
         </div>
         <img src={automation} alt="Aza Case" className="w-10/12 sm:w-screen" />
       </div>
-      <div className="grid grid-cols-2 gap-4 px-8 py-10 sm:grid-cols-1 xsm:grid-cols-1">
+      <div className="grid grid-cols-2 gap-4 px-20 py-10 sm:grid-cols-1 xsm:grid-cols-1">
         <div>
           <h1 className="text-orange font-bold text-2xl">The Ask</h1>
           <p className="text-taskHeading py-5">
@@ -102,48 +102,48 @@ const AzaCase = () => {
       <br />
       <br />
       <img src={productUser} alt="Product User" className="w-full"/>
-      <div className="px-8">
+      <div className="px-20">
         <h1 className="text-orange font-bold text-2xl">
           Quantitative Research
         </h1>
-        <p className="text-taskHeading py-5 font-medium">
+        <p className="text-taskHeading py-5  ">
           We conducted a remote usability test with 6 users who fall in our
           target demographic
         </p>
         <h1 className="text-orange font-bold text-2xl">Observations</h1>
-        <div className="grid grid-cols-2 gap-4 px-8 py-5 w-9/12 sm:grid-cols-1 xsm:grid-cols-1">
+        <div className="grid grid-cols-2 gap-4 px-20 py-5 w-9/12 sm:grid-cols-1 xsm:grid-cols-1">
           <div>
             <h1 className="text-personaFaith text-3xl">80%</h1>
-            <p className="text-taskHeading py-5 font-medium">
+            <p className="text-taskHeading py-5  ">
               Of the users face difficulties when uploading documents during
               onboarding
             </p>
           </div>
           <div>
             <h1 className="text-personaFaith text-3xl">50%</h1>
-            <p className="text-taskHeading py-5 font-medium">
+            <p className="text-taskHeading py-5  ">
               Of user take more than 72 hours onboarding on the AZA platform
             </p>
           </div>
           <div>
             <h1 className="text-personaFaith text-3xl">300k</h1>
-            <p className="text-taskHeading py-5 font-medium">
+            <p className="text-taskHeading py-5  ">
               Lost in revenue by business every month when users are unable to
               convert to paying customer
             </p>
           </div>
           <div>
             <h1 className="text-personaFaith text-3xl">60%</h1>
-            <p className="text-taskHeading py-5 font-medium">
+            <p className="text-taskHeading py-5  ">
               Of internal onboarding stuff and Engineers lost helping users and
               fixing onboarding issues on the platform respectively
             </p>
           </div>
         </div>
       </div>
-      <div className="px-8">
+      <div className="px-20">
         <h1 className="text-orange font-bold text-2xl">User Needs</h1>
-        <ul className="text-taskHeading ml-5 py-5 list-decimal font-medium ">
+        <ul className="text-taskHeading ml-5 py-5 list-decimal   ">
           <li>
             Get a reliable partner with scale who can support with navigating
             regulations
@@ -178,11 +178,11 @@ const AzaCase = () => {
         </div>
       </div>
       <br />
-      <div className="px-8">
+      <div className="px-20">
         <h1 className="text-orange font-bold text-2xl">
           Product User Challenges
         </h1>
-        <ul className="text-taskHeading ml-5 py-5 list-decimal font-medium ">
+        <ul className="text-taskHeading ml-5 py-5 list-decimal   ">
           <li>
             Documents irregularities. Some customers upload documents that are
             not up to standards
@@ -195,17 +195,17 @@ const AzaCase = () => {
         </ul>
       </div>
       <br />
-      <div className="px-8">
+      <div className="px-20">
         <h1 className="text-orange font-bold text-2xl">Competitor Analysis</h1>
         <div className="grid grid-cols-2 gap-4 py-10 w-9/12 sm:grid-cols-1 xsm:grid-cols-1">
           <div>
             <img src={azimo} alt="Azimo" />
-            <p className="text-taskHeading py-5 font-medium">
+            <p className="text-taskHeading py-5  ">
               Azimo offers money transfers to 190 receiving countries in over 80
               different currencies
             </p>
-            <p className="text-personaFaith py-5 font-medium">Features</p>
-            <ul className="text-taskHeading ml-5 py-5 list-decimal font-medium">
+            <p className="text-personaFaith py-5  ">Features</p>
+            <ul className="text-taskHeading ml-5 py-5 list-decimal  ">
               <li>
                 Uses the same security levels as banks-so is safe and secure.
               </li>
@@ -217,12 +217,12 @@ const AzaCase = () => {
           </div>
           <div>
             <img src={bitstamp} alt="Bitstamp" />
-            <p className="text-taskHeading py-5 font-medium">
+            <p className="text-taskHeading py-5  ">
               Bitstamp makes trading easy, fast &amp; reliable with 24/7
               support, staking and bank-grade security &amp; insurance.
             </p>
-            <p className="text-personaFaith py-5 font-medium">Features</p>
-            <ul className="text-taskHeading ml-5 py-5 list-decimal font-medium">
+            <p className="text-personaFaith py-5  ">Features</p>
+            <ul className="text-taskHeading ml-5 py-5 list-decimal  ">
               <li>Identify and verify feature</li>
               <li>Multiple users account access </li>
             </ul>
@@ -230,11 +230,11 @@ const AzaCase = () => {
         </div>
       </div>
       <div className="bg-grey ">
-        <div className="px-8">
+        <div className="px-20">
           <h1 className="text-orange font-bold text-2xl pt-5">
             AZA Onboarding Unique Features
           </h1>
-          <ul className="text-taskHeading ml-5 py-5 list-decimal font-medium ">
+          <ul className="text-taskHeading ml-5 py-5 list-decimal   ">
             <li>
               Users can have access to all AZA trading products with a single
               sign on
@@ -249,11 +249,11 @@ const AzaCase = () => {
         </div>
       </div>
       <br />
-      <img src={userPersona} alt="User Persona" className="px-8" />
-      <div className="grid grid-cols-2 gap-2 py-10 px-8  sm:grid-cols-1 xsm:grid-cols-1">
+      <img src={userPersona} alt="User Persona" className="px-20" />
+      <div className="grid grid-cols-2 gap-2 py-10 px-20  sm:grid-cols-1 xsm:grid-cols-1">
         <div>
           <h1 className="text-personaFaith font-bold text-2xl ">Description</h1>
-          <p className="text-taskHeading py-5 w-10/12 font-medium">
+          <p className="text-taskHeading py-5 w-10/12  ">
             Toby is the CFO of an import and export company, who is a workaholic
             and often spends late nights in the office. He is ambitious,
             rigorous, faithful, inquisitive, and hardworking, decicated to both
@@ -267,23 +267,23 @@ const AzaCase = () => {
           </h1>
           <br />
           <h1 className="text-personaFaith text-2xl ">Awareness</h1>
-          <p className="text-taskHeading py-5 font-medium">
+          <p className="text-taskHeading py-5  ">
             Ask network, internal financial or Sales teams, or through industry
             events.
           </p>
           <h1 className="text-personaFaith text-2xl ">Consideration</h1>
-          <p className="text-taskHeading py-5 font-medium">
+          <p className="text-taskHeading py-5  ">
             He will ask friends, partners, agents, his network if they are
             familiar with a company, check for client testimonials. This aspect
             of familiarity and trust is very important for him.
           </p>
           <h1 className="text-personaFaith text-2xl ">Decision</h1>
-          <p className="text-taskHeading py-5 font-medium">
+          <p className="text-taskHeading py-5  ">
             He will base his final decision on the feedback received from his
             network, particularly the experiences of the partners he trusts.
           </p>
           <h1 className="text-personaFaith text-2xl ">Barriers</h1>
-          <ul className="text-taskHeading ml-5 py-5 list-disc font-medium">
+          <ul className="text-taskHeading ml-5 py-5 list-disc  ">
             <li>Paying suppliers in foreign currencies</li>
             <li>Getting liquidity at a good rate to make a margin</li>
             <li>
@@ -296,28 +296,28 @@ const AzaCase = () => {
         </div>
       </div>
       <br />
-      <div className="px-8">
+      <div className="px-20">
         <h1 className="text-orange text-2xl  font-bold">Task Mappping</h1>
         <br />
 
         <img src={task} alt="Task Mapping" className="w-full" />
       </div>
       <br />
-      <div className="px-8">
+      <div className="px-20">
         <h1 className="text-orange text-2xl  font-bold">Eisen Hover Matrix</h1>
         <br />
 
         <img src={eisen} alt="Eisen Hover Matrix" />
       </div>
       <br />
-      <div className="px-8">
+      <div className="px-20">
         <h1 className="text-orange text-2xl  font-bold">5 Why Analysis</h1>
         <br />
 
         <img src={why} alt="Why Analysis" className="w-full" />
       </div>
       <br />
-      <div className="px-8">
+      <div className="px-20">
         <h1 className="text-orange text-2xl  font-bold">
           Root Cause Analysis (RCA)
         </h1>
@@ -326,11 +326,11 @@ const AzaCase = () => {
         <img src={rca} alt="Root Cause Analysis" />
       </div>
       <br />
-      <img src={taskflow} alt="TaskFlow" className="px-8" />
+      <img src={taskflow} alt="TaskFlow" className="px-20" />
       <br />
-      <img src={taskflow2} alt="TaskFlow" className="px-8" />
+      <img src={taskflow2} alt="TaskFlow" className="px-20" />
       <br />
-      <img src={screens} alt="Screens" className="px-8 m-auto" />
+      <img src={screens} alt="Screens" className="px-20 m-auto" />
       <div className="w-full bg-connect flex items-center justify-center flex-col">
         <img src={connect} alt="Letus Connect" className="mx-auto pt-10" />
         <button className="border border-darkBlue py-2 px-4 text-darkBlue mx-auto mb-10">
@@ -354,7 +354,7 @@ const AzaCase = () => {
         View More
       </h1>
       <br />
-      <div className="grid grid-cols-3 px-8 gap-8 sm:grid-cols-1 xsm:grid-cols-1 ">
+      <div className="grid grid-cols-3 px-20 gap-8 sm:grid-cols-1 xsm:grid-cols-1 ">
         <div className="bg-cardPink flex items-center justify-center flex-col ">
           {/* <br/> */}
           <a href="" className="underline text-white text-lg font-bold">

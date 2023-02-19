@@ -35,10 +35,10 @@ const Voice = () => {
         </div>
         <img src={voice} alt="Voice Case" className="w-7/12 ml-5 sm:w-screen sm:ml-0" />
       </div>
-      <div className="grid grid-cols-2 gap-4 px-8 py-10 sm:grid-cols-1 xsm:grid-cols-1">
+      <div className="grid grid-cols-2 gap-4 px-20 py-10 sm:grid-cols-1 xsm:grid-cols-1">
         <div>
           <h1 className="text-orange font-bold text-2xl">The Ask</h1>
-          <p className="text-taskHeading py-5 w-10/12 font-medium">
+          <p className="text-taskHeading py-5 w-10/12  ">
             War Child Holland has a number of projects in South Sudan focusing
             on psychosocial support to war-affected children in what they call
             child-safe spaces. One of the innovation projects is looking at
@@ -48,7 +48,7 @@ const Voice = () => {
           </p>
           <h1 className="text-orange font-bold text-2xl">Design Challenge</h1>
 
-          <p className="text-taskHeading py-5 font-medium">
+          <p className="text-taskHeading py-5  ">
             How might we design a tool that improves the feedback process in
             WarChild Holland child-safe spaces
           </p>
@@ -59,12 +59,12 @@ const Voice = () => {
           className="w-3/6  ml-20 sm:w-10/12 sm:ml-0 md:w-10/12 xsm:ml-0"
         />
       </div>
-      <div className="grid grid-cols-2 gap-4 px-8 py-10 sm:grid-cols-1 xsm:grid-cols-1">
+      <div className="grid grid-cols-2 gap-4 px-20 py-10 sm:grid-cols-1 xsm:grid-cols-1">
         <div>
           <h1 className="text-orange font-bold text-2xl">
             Objectives &amp; Goals
           </h1>
-          <ul className="text-taskHeading list-decimal py-5 ml-5 font-medium">
+          <ul className="text-taskHeading list-decimal py-5 ml-5  ">
             <li>
               To support WarChild Holland int their efforts to providing
               psychological safety to war affected children
@@ -84,7 +84,7 @@ const Voice = () => {
           <h1 className="text-orange font-bold text-2xl">
             Organisation Challanges
           </h1>
-          <ul className="text-taskHeading list-decimal py-5 ml-5 font-medium">
+          <ul className="text-taskHeading list-decimal py-5 ml-5  ">
             <li>
               Key volunteers are unable to use available tools for reporting
             </li>
@@ -105,10 +105,10 @@ const Voice = () => {
         </div>
       </div>
       <div className="bg-grey">
-        <div className="grid grid-cols-2 gap-4 px-8 py-10 sm:grid-cols-1 xsm:grid-cols-1">
+        <div className="grid grid-cols-2 gap-4 px-20 py-10 sm:grid-cols-1 xsm:grid-cols-1">
           <div>
             <h1 className="text-taskHeading font-bold text-2xl">App Users</h1>
-            <p className="text-taskHeading py-5 w-10/12 font-medium">
+            <p className="text-taskHeading py-5 w-10/12  ">
               The target demographic are Children affected by war in Malakal ,
               South Sudan, who reside in child-safe spaces provided by Warchild
             </p>
@@ -116,7 +116,7 @@ const Voice = () => {
               Feedback Tool Users
             </h1>
 
-            <p className="text-taskHeading py-5 font-medium">
+            <p className="text-taskHeading py-5  ">
               The target audience are war child Volunteers living in Malakal,
               South sudan
               <span className="font-normal">
@@ -132,12 +132,12 @@ const Voice = () => {
           />
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-4 px-8 py-10 sm:grid-cols-1 xsm:grid-cols-1">
+      <div className="grid grid-cols-2 gap-4 px-20 py-10 sm:grid-cols-1 xsm:grid-cols-1">
         <div>
           <h1 className="text-taskHeading font-bold text-2xl">
             Research Methodology
           </h1>
-          <p className="text-taskHeading py-5 w-10/12 font-medium">
+          <p className="text-taskHeading py-5 w-10/12  ">
             We conducted various activities to help us gain insights and
             understand the inherent needs in giving and receiving feedback
           </p>
@@ -145,7 +145,7 @@ const Voice = () => {
         <div>
           <h1 className="text-taskHeading font-bold text-2xl">Observations</h1>
 
-          <p className="text-taskHeading py-5 font-medium">
+          <p className="text-taskHeading py-5  ">
             Designing for marginalised communities with low literacy (written
             and spoken) levels and a different language requires a significant
             shift in terms of the thought process. Shorter testing and feedback
@@ -154,7 +154,7 @@ const Voice = () => {
           </p>
         </div>
       </div>
-      <div className="px-8 py-10">
+      <div className="px-20 py-10">
         <div className="text-center">
           <h1 className="text-orange font-bold text-2xl">The Process</h1>
           <br />
@@ -169,12 +169,12 @@ const Voice = () => {
           <img src={designThinking} alt="Design Thinking" />
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-4 px-8 py-10 sm:grid-cols-1 xsm:grid-cols-1">
+      <div className="grid grid-cols-2 gap-4 px-20 py-10 sm:grid-cols-1 xsm:grid-cols-1">
         <div>
           <h1 className="text-orange font-bold text-2xl">
             User Needs and Painpoints
           </h1>
-          <ul className="ml-5 list-decimal leading-loose font-medium">
+          <ul className="ml-5 list-decimal leading-loose  ">
             <li>Children to feel safe in the child-safe facilities</li>
             <li>
               Volunteers to get basic understanding of both the psychological
@@ -203,12 +203,12 @@ const Voice = () => {
         />
       </div>
       <div className="bg-grey">
-        <div className="grid grid-cols-2 gap-4 px-8 py-10 sm:grid-cols-1 xsm:grid-cols-1">
+        <div className="grid grid-cols-2 gap-4 px-20 py-10 sm:grid-cols-1 xsm:grid-cols-1">
           <div className="leading-loose">
             <h1 className="text-orange font-bold text-2xl">
               My Voice Unique Features
             </h1>
-            <ul className="ml-5 list-decimal leading-loose font-medium">
+            <ul className="ml-5 list-decimal leading-loose  ">
               <li>
                 Feedback tool- get feedback from children who are part of the
                 program
@@ -230,13 +230,13 @@ const Voice = () => {
           />
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-4 px-8 py-10 sm:grid-cols-1 xsm:grid-cols-1">
+      <div className="grid grid-cols-2 gap-4 px-20 py-10 sm:grid-cols-1 xsm:grid-cols-1">
         <div className="leading-loose">
           <h1 className="text-orange font-bold text-2xl">Recommendations</h1>
           <h1 className="text-personaFaith font-semibold">
             Smiley-based application for the children
           </h1>
-          <p className="text-taskHeading py-5 font-medium">
+          <p className="text-taskHeading py-5  ">
             We sketched out different symbol-reactions with the children we
             spoke to in order to concisely capture what resonated best among the
             different children at the CFS center. Thumbs down and sad face to
@@ -251,7 +251,7 @@ const Voice = () => {
           <h1 className="text-personaFaith font-semibold">
             Android-based feedback tool for facilitators and community workers
           </h1>
-          <p className="text-taskHeading py-5 font-medium">
+          <p className="text-taskHeading py-5  ">
             An android-based feedback platform that will allow for anonymity in
             incidences where the user prefers to remain anonymous. Due to the
             poor internet connection at the CFS centers, the application should
@@ -270,7 +270,7 @@ const Voice = () => {
           <h1 className="text-personaFaith font-semibold">
             Giving feedback through symbols as a learning tool
           </h1>
-          <p className="text-taskHeading py-5 font-medium">
+          <p className="text-taskHeading py-5  ">
             In order for the feedback tool to provide a seamless experience for
             the child protection committee and community volunteers who often
             report violations against children, it is essential that we bridge
@@ -299,7 +299,7 @@ const Voice = () => {
           <h1 className="text-personaFaith font-semibold">
             Dashboard Analysis
           </h1>
-          <p className="text-taskHeading py-5 font-medium">
+          <p className="text-taskHeading py-5  ">
             To stay abreast with what is happening at the CFS center, WCH staff
             will be able to view feedback from the children, staff and other
             project beneficiaries from a single dashboard. The dashboard will
@@ -345,7 +345,7 @@ const Voice = () => {
 
     <h1 className="text-personaKamau text-2xl font-bold pt-2 text-center">View More</h1>
     <br/>
-         <div className="grid grid-cols-3 gap-8 px-8 sm:grid-cols-1 xsm:grid-cols-1 ">
+         <div className="grid grid-cols-3 gap-8 px-20 sm:grid-cols-1 xsm:grid-cols-1 ">
          <div className="bg-cardPink flex items-center justify-center flex-col ">
           {/* <br/> */}
           <a href="" className="underline text-white text-lg font-bold">
