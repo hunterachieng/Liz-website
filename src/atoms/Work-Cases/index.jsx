@@ -9,7 +9,7 @@ const WorkCases = ({imageUrl,heading,content, bgColor})=>{
             <br/>
             <p >{content}</p>
             <br/>
-            <img src={imageUrl} alt="Case study images" className={` ${imageUrl=== "/static/media/masoko.0fbc07b36a323cf48a0b8128120190f4.svg"? "max-h-80 w-8/12":"max-h-80"}`}/>
+            <img src={imageUrl} alt="Case study images" className={` ${imageUrl=== "/static/media/masoko.0fbc07b36a323cf48a0b8128120190f4.svg"? "max-h-80 w-10/12":"max-h-80"}`}/>
             <br/>
            
             

@@ -26,6 +26,7 @@ import prosper from "../../images/work-images/prosper.svg";
 import document from "../../images/work-images/document.svg";
 import wallet from "../../images/work-images/wallet.svg";
 import api from "../../images/work-images/api.svg";
+import { NavLink as Link } from "react-router-dom";
 
 const AzaCase = () => {
   return (
@@ -101,7 +102,7 @@ const AzaCase = () => {
       </div>
       <br />
       <br />
-      <img src={productUser} alt="Product User" className="w-full"/>
+      <img src={productUser} alt="Product User" className="w-full" />
       <div className="px-20">
         <h1 className="text-orange font-bold text-2xl">
           Quantitative Research
@@ -341,10 +342,10 @@ const AzaCase = () => {
       </div>
       <br />
       <div className="flex items-center justify-center">
-        <button className="border bg-darkBlue py-2 px-4 text-white underline font-bold">
-          View next casestudy
+        <button className="border bg-darkBlue py-2 px-4 text-white  font-bold">
+          <Link to="/masoko-case"> View next casestudy</Link>
         </button>
-        <button className="border border-darkBlue py-2 px-10 text-darkBlue underline font-bold ml-2">
+        <button className="border border-darkBlue py-2 px-10 text-darkBlue  font-bold ml-2">
           Resume
         </button>
       </div>
@@ -356,30 +357,32 @@ const AzaCase = () => {
       <br />
       <div className="grid grid-cols-3 px-20 gap-8 sm:grid-cols-1 xsm:grid-cols-1 ">
         <div className="bg-cardPink flex items-center justify-center flex-col ">
-          {/* <br/> */}
-          <a href="" className="underline text-white text-lg font-bold">
-            Masoko Vendor Platform
-          </a>
-          <br />
-          <img src={masoko} alt="Masoko" className="" />
+          <Link to="/masoko-case">
+            <p className="underline text-white text-center text-lg font-bold">
+              Masoko Vendor Platform
+            </p>
+            <br />
+            <img src={masoko} alt="Masoko" className="" />
+          </Link>
         </div>
 
         <div className="bg-cardGreen flex items-center justify-center flex-col ">
-          <br />
-          <a href="" className="underline text-white text-lg font-bold">
-            My Voice
-          </a>
-          <br />
-          <img src={voice} alt="Voice" />
+          <Link to="/voice-case">
+            <br />
+            <p className="underline text-white text-lg text-center font-bold">My Voice</p>
+            <br />
+            <img src={voice} alt="Voice" />
+          </Link>
         </div>
 
         <div className="bg-cardPurple flex items-center justify-center flex-col ">
-          {/* <br/> */}
-          <a href="" className="underline text-white text-lg font-bold">
-            My prosper App
-          </a>
-          <br />
-          <img src={prosper} alt="Prosper" className="" />
+          <Link to="/prosper-case">
+            <p className="underline text-white text-lg text-center font-bold">
+              My prosper App
+            </p>
+            <br />
+            <img src={prosper} alt="Prosper" className="" />
+          </Link>
         </div>
       </div>
       <br />
