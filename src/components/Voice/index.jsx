@@ -14,7 +14,8 @@ import testFindings from "../../images/work-images/test-findings.svg";
 import connect from  "../../images/work-images/connect.svg";
 import masoko from "../../images/work-images/masoko.svg";
 import automation from "../../images/work-images/automation.svg";
-import prosper from "../../images/work-images/prosper.svg"
+import prosper from "../../images/work-images/prosper.svg";
+import {NavLink as Link} from "react-router-dom";
 
 const Voice = () => {
   return (
@@ -338,8 +339,8 @@ const Voice = () => {
     </div>
     <br/>
     <div className="flex items-center justify-center">
-    <button className="border bg-darkBlue py-2 px-4 text-white underline font-bold">View next casestudy</button>
-    <button className="border border-darkBlue py-2 px-10 text-darkBlue underline font-bold ml-2">Resume</button>
+    <button className="border bg-darkBlue py-2 px-4 text-white font-bold" ><Link to="/aza-case">View next casestudy</Link></button>
+    <button className="border border-darkBlue py-2 px-10 text-darkBlue font-bold ml-2">Resume</button>
     </div>
     <br/>
 
@@ -347,23 +348,28 @@ const Voice = () => {
     <br/>
          <div className="grid grid-cols-3 gap-8 px-20 sm:grid-cols-1 xsm:grid-cols-1 ">
          <div className="bg-cardPink flex items-center justify-center flex-col ">
+         <Link to="/masoko-case">
           {/* <br/> */}
-          <a href="" className="underline text-white text-lg font-bold">
+          <p className="underline text-white text-lg text-center font-bold">
             Masoko Vendor Platform
-          </a>
+          </p>
           <br />
           <img src={masoko} alt="Masoko" className="" />
+          </Link>
         </div>
            <div className="bg-cardBlue flex items-center justify-center flex-col ">
-           <a href="" className="underline text-white text-lg font-bold">AZA Finance Automation</a>
+           <Link to="/aza-case" >
+           <p className="underline text-white text-lg text-center font-bold">AZA Finance Automation</p>
            <br/>
            <img src={automation} alt="AZA" />
+           </Link>
            </div>
-           <div className="bg-cardPurple flex items-center justify-center flex-col ">
+           <div className="bg-cardPurple flex items-center justify-center flex-col "><Link to="/prosper-case">
             {/* <br/> */}
-            <a href="" className="underline text-white text-lg font-bold">My prosper App</a>
+            <p className="underline text-white text-lg text-center font-bold">My prosper App</p>
             <br/>
            <img src={prosper} alt="Prosper" className=""/>
+           </Link>
            </div>
             </div> 
             <br/>

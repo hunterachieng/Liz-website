@@ -17,7 +17,8 @@ import major from  "../../images/work-images/major.svg";
 import connect from  "../../images/work-images/connect.svg"
 import masoko from "../../images/work-images/masoko.svg";
 import voice from "../../images/work-images/voice.svg";
-import automation from "../../images/work-images/automation.svg"
+import automation from "../../images/work-images/automation.svg";
+import {NavLink as Link} from "react-router-dom";
 
 const Process = ()=>{
     return(
@@ -175,8 +176,8 @@ overall mental model
     <br/>
 
     <div className="flex items-center justify-center">
-    <button className="border bg-darkBlue py-2 px-4 text-white underline font-bold">View next casestudy</button>
-    <button className="border border-darkBlue py-2 px-10 text-darkBlue underline font-bold ml-2">Resume</button>
+    <button className="border bg-darkBlue py-2 px-4 text-white  font-bold"><Link to="/voice-case"></Link>View next casestudy</button>
+    <button className="border border-darkBlue py-2 px-10 text-darkBlue font-bold ml-2">Resume</button>
     </div>
     <br/>
 
@@ -184,21 +185,27 @@ overall mental model
     <br/>
          <div className="grid grid-cols-3 gap-8 px-20 sm:grid-cols-1 xsm:grid-cols-1 ">
            <div className="bg-cardPink flex items-center justify-center flex-col ">
+            <Link to="/masoko-case">
             {/* <br/> */}
-            <a href="" className="underline text-white text-lg font-bold">Masoko Vendor Platform</a>
+            <p className="underline text-white text-center text-lg font-bold">Masoko Vendor Platform</p>
             <br/>
            <img src={masoko} alt="Masoko" className=""/>
+           </Link>
            </div>
            <div className="bg-cardGreen flex items-center justify-center flex-col "> 
+           <Link to="/voice-case">
            <br/>
-           <a href="" className="underline text-white text-lg font-bold">My Voice</a>
+           <p className="underline text-white text-center text-lg font-bold">My Voice</p>
            <br/>
            <img src={voice} alt="Voice"/>
+           </Link>
            </div>
            <div className="bg-cardBlue flex items-center justify-center flex-col ">
-           <a href="" className="underline text-white text-lg font-bold">AZA Finance Automation</a>
+            <Link to="/aza-case">
+           <p className="underline text-white text-center text-lg font-bold">AZA Finance Automation</p>
            <br/>
            <img src={automation} alt="AZA" />
+           </Link>
            </div>
             </div> 
 

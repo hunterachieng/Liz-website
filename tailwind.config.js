@@ -41,6 +41,9 @@ module.exports = {
     personaKamau:"#0651A5",
     taskHeading: "#282D46",
     connect:"#F8F8F8",
+    dark:"#282828",
+    yellow:"#FFFF00",
+    bgOrange :"#E76033"
       },
     },
   },

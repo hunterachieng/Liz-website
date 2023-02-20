@@ -25,7 +25,8 @@ import summaryPayment from "../../images/work-images/summary-payment.svg";
 import connect from  "../../images/work-images/connect.svg";
 import voice from "../../images/work-images/voice.svg";
 import automation from "../../images/work-images/automation.svg";
-import prosper from "../../images/work-images/prosper.svg"
+import prosper from "../../images/work-images/prosper.svg";
+import {NavLink as Link} from "react-router-dom";
 
 const Masoko = () => {
   return (
@@ -298,8 +299,8 @@ The idea was to validate as quickly as possible and Articulate the biggest probl
     </div>
     <br/>
     <div className="flex items-center justify-center">
-    <button className="border bg-darkBlue py-2 px-4 text-white underline font-bold">View next casestudy</button>
-    <button className="border border-darkBlue py-2 px-10 text-darkBlue underline font-bold ml-2">Resume</button>
+    <button className="border bg-darkBlue py-2 px-4 text-white font-bold"><Link to="/prosper-case">View next casestudy</Link></button>
+    <button className="border border-darkBlue py-2 px-10 text-darkBlue font-bold ml-2">Resume</button>
     </div>
     <br/>
 
@@ -308,21 +309,27 @@ The idea was to validate as quickly as possible and Articulate the biggest probl
          <div className="grid grid-cols-3 gap-8 px-20 sm:grid-cols-1 xsm:grid-cols-1 ">
           
            <div className="bg-cardGreen flex items-center justify-center flex-col "> 
+           <Link to="/voice-case">
+          
            <br/>
-           <a href="" className="underline text-white text-lg font-bold">My Voice</a>
+           <p className="underline text-white text-lg text-center font-bold">My Voice</p>
            <br/>
            <img src={voice} alt="Voice"/>
+           </Link>
            </div>
            <div className="bg-cardBlue flex items-center justify-center flex-col ">
-           <a href="" className="underline text-white text-lg font-bold">AZA Finance Automation</a>
+            <Link to="/aza-case">
+           <p className="underline text-white text-lg text-center font-bold">AZA Finance Automation</p>
            <br/>
            <img src={automation} alt="AZA" />
+           </Link>
            </div>
            <div className="bg-cardPurple flex items-center justify-center flex-col ">
-            {/* <br/> */}
-            <a href="" className="underline text-white text-lg font-bold">My prosper App</a>
+            <Link to="/prosper-case">
+            <p className="underline text-white text-lg text-center font-bold">My prosper App</p>
             <br/>
            <img src={prosper} alt="Prosper" className=""/>
+           </Link>
            </div>
             </div> 
             <br/>
