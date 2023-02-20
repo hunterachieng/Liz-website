@@ -81,7 +81,7 @@ const Work = () => {
 <br/>
       <img src={me} alt="Liz" />
       <br/>
-      <p className="text-white">Small small things <Link to="">About me</Link></p>
+      <p className="text-white">Small small things <Link to="/about">About me</Link></p>
       <br/>
       <div className="flex justify-between  mt-2 w-1/4">
         <BsMedium className="bg-yellow p-1 text-personaFaith  text-2xl rounded-full m-1" />
