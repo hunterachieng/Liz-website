@@ -1,11 +1,20 @@
 import React, {useEffect,useState} from "react";
 import {NavLink as Link} from "react-router-dom";
 import Footer from "../Footer";
+import liz from "../../images/work-images/liz.png"
 
 const colors = ["bg-personaFaith", "bg-yellow","bg-bgOrange", "bg-dark"]
 const About = ()=>{
 
     const [value, setValue] = useState(0);
+    const [isHovering, setIsHovering] = useState(false)
+
+    const handleMouseOver = ()=>{
+      setIsHovering(true);
+    }
+    const handleMouseOut = ()=>{
+      setIsHovering(false)
+    }
 
     useEffect(() => {
       const interval = setInterval(() => {
@@ -17,7 +26,7 @@ const About = ()=>{
     }, []);
     return(
  <>
-        <div className={`px-8 ${colors[value]} ${colors[value] === "bg-dark"? "text-white": "text-taskHeading "} flex flex-col h-screen sm:h-full xsm:h-fit`}>
+        <div className={`px-8 ${colors[value]} transition-all ease-linear duration-1000 ${colors[value] === "bg-dark"? "text-white": "text-taskHeading "} flex flex-col h-screen sm:h-full xsm:h-fit`}>
             
             <div className="w-full flex justify-between mt-5">
                 <Link to="/">Work</Link>
@@ -27,13 +36,22 @@ const About = ()=>{
             <br/>
             <div className="mx-40 w-9/12 grid grid-cols-2 gap-2 sm:grid-cols-1 sm:w-full sm:mx-2 xsm:grid-cols-1 xsm:w-full xsm:mx-2">
                 <div className="ml-30">
-                    <h1 className="text-5xl font-bold">LIZ KAGIMBI</h1>
+                    <h1 className="text-5xl font-bold"
+                    onMouseOver={handleMouseOver}
+                    onMouseOut={handleMouseOut}
+                    >LIZ KAGIMBI</h1>
                     <br/>
                     <h1 className="text-4xl font-bold">Let&apos;s Connect</h1>
                     <br/>
                     <p><Link>Email me</Link></p>
                     <br/>
                     <p><Link>LinkedIn</Link></p>
+                    <br/>
+                    {isHovering && (
+                      <img src={liz} alt="Liz" width={250}/>
+
+                    )}
+                    
                 </div>
                 <div className=" w-10/12">
                     <p>I'm a Product Designer who focuses on user experience, visual craft, 
