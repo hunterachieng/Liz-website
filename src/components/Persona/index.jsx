@@ -18,7 +18,7 @@ const Persona = ({
   textColor
 }) => {
   return (
-    <div className="flex px-20 py-10 sm:flex-col xsm:flex-col">
+    <div className="flex px-20 py-10 sm:flex-col xsm:flex-col sm:px-5 xsm:px-5">
       <PersonaBanner
         image={image}
         imageAlt={imageAlt}

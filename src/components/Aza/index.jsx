@@ -47,7 +47,7 @@ const AzaCase = () => {
         </div>
         <img src={automation} alt="Aza Case" className="w-10/12 sm:w-screen" />
       </div>
-      <div className="grid grid-cols-2 gap-4 px-20 py-10 sm:grid-cols-1 xsm:grid-cols-1">
+      <div className="grid grid-cols-2 gap-4 px-20 py-10 sm:grid-cols-1 xsm:grid-cols-1 sm:px-5 xsm:px-5">
         <div>
           <h1 className="text-orange font-bold text-2xl">The Ask</h1>
           <p className="text-taskHeading py-5">
@@ -103,7 +103,7 @@ const AzaCase = () => {
       <br />
       <br />
       <img src={productUser} alt="Product User" className="w-full" />
-      <div className="px-20">
+      <div className="px-20 sm:px-5 xsm:px-5">
         <h1 className="text-orange font-bold text-2xl">
           Quantitative Research
         </h1>
@@ -112,7 +112,7 @@ const AzaCase = () => {
           target demographic
         </p>
         <h1 className="text-orange font-bold text-2xl">Observations</h1>
-        <div className="grid grid-cols-2 gap-4 px-20 py-5 w-9/12 sm:grid-cols-1 xsm:grid-cols-1">
+        <div className="grid grid-cols-2 gap-4 px-20 py-5 w-9/12 sm:grid-cols-1 xsm:grid-cols-1 sm:px-5 xsm:px-5">
           <div>
             <h1 className="text-personaFaith text-3xl">80%</h1>
             <p className="text-taskHeading py-5  ">
@@ -142,7 +142,7 @@ const AzaCase = () => {
           </div>
         </div>
       </div>
-      <div className="px-20">
+      <div className="px-20 sm:px-5 xsm:px-5">
         <h1 className="text-orange font-bold text-2xl">User Needs</h1>
         <ul className="text-taskHeading ml-5 py-5 list-decimal   ">
           <li>
@@ -179,7 +179,7 @@ const AzaCase = () => {
         </div>
       </div>
       <br />
-      <div className="px-20">
+      <div className="px-20 sm:px-5 xsm:px-5">
         <h1 className="text-orange font-bold text-2xl">
           Product User Challenges
         </h1>
@@ -196,7 +196,7 @@ const AzaCase = () => {
         </ul>
       </div>
       <br />
-      <div className="px-20">
+      <div className="px-20 sm:px-5 xsm:px-5">
         <h1 className="text-orange font-bold text-2xl">Competitor Analysis</h1>
         <div className="grid grid-cols-2 gap-4 py-10 w-9/12 sm:grid-cols-1 xsm:grid-cols-1">
           <div>
@@ -231,7 +231,7 @@ const AzaCase = () => {
         </div>
       </div>
       <div className="bg-grey ">
-        <div className="px-20">
+        <div className="px-20 sm:px-5 xsm:px-5">
           <h1 className="text-orange font-bold text-2xl pt-5">
             AZA Onboarding Unique Features
           </h1>
@@ -250,8 +250,8 @@ const AzaCase = () => {
         </div>
       </div>
       <br />
-      <img src={userPersona} alt="User Persona" className="px-20" />
-      <div className="grid grid-cols-2 gap-2 py-10 px-20  sm:grid-cols-1 xsm:grid-cols-1">
+      <img src={userPersona} alt="User Persona" className="px-20 sm:px-5 xsm:px-5" />
+      <div className="grid grid-cols-2 gap-2 py-10 px-20  sm:grid-cols-1 xsm:grid-cols-1 sm:px-5 xsm:px-5">
         <div>
           <h1 className="text-personaFaith font-bold text-2xl ">Description</h1>
           <p className="text-taskHeading py-5 w-10/12  ">
@@ -297,28 +297,28 @@ const AzaCase = () => {
         </div>
       </div>
       <br />
-      <div className="px-20">
+      <div className="px-20 sm:px-5 xsm:px-5">
         <h1 className="text-orange text-2xl  font-bold">Task Mappping</h1>
         <br />
 
         <img src={task} alt="Task Mapping" className="w-full" />
       </div>
       <br />
-      <div className="px-20">
+      <div className="px-20 sm:px-5 xsm:px-5">
         <h1 className="text-orange text-2xl  font-bold">Eisen Hover Matrix</h1>
         <br />
 
         <img src={eisen} alt="Eisen Hover Matrix" />
       </div>
       <br />
-      <div className="px-20">
+      <div className="px-20 sm:px-5 xsm:px-5">
         <h1 className="text-orange text-2xl  font-bold">5 Why Analysis</h1>
         <br />
 
         <img src={why} alt="Why Analysis" className="w-full" />
       </div>
       <br />
-      <div className="px-20">
+      <div className="px-20 sm:px-5 xsm:px-5">
         <h1 className="text-orange text-2xl  font-bold">
           Root Cause Analysis (RCA)
         </h1>
@@ -327,11 +327,11 @@ const AzaCase = () => {
         <img src={rca} alt="Root Cause Analysis" />
       </div>
       <br />
-      <img src={taskflow} alt="TaskFlow" className="px-20" />
+      <img src={taskflow} alt="TaskFlow" className="px-20 sm:px-5 xsm:px-5" />
       <br />
-      <img src={taskflow2} alt="TaskFlow" className="px-20" />
+      <img src={taskflow2} alt="TaskFlow" className="px-20 sm:px-5 xsm:px-5" />
       <br />
-      <img src={screens} alt="Screens" className="px-20 m-auto" />
+      <img src={screens} alt="Screens" className="px-20 m-auto sm:px-5 xsm:px-5" />
       <div className="w-full bg-connect flex items-center justify-center flex-col">
         <img src={connect} alt="Letus Connect" className="mx-auto pt-10" />
         <button className="border border-darkBlue py-2 px-4 text-darkBlue mx-auto mb-10">
@@ -355,7 +355,7 @@ const AzaCase = () => {
         View More
       </h1>
       <br />
-      <div className="grid grid-cols-3 px-20 gap-8 sm:grid-cols-1 xsm:grid-cols-1 ">
+      <div className="grid grid-cols-3 px-20 gap-8 sm:grid-cols-1 xsm:grid-cols-1 sm:px-5 xsm:px-5">
         <div className="bg-cardPink flex items-center justify-center flex-col ">
           <Link to="/masoko-case">
             <p className="underline text-white text-center text-lg font-bold">

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import advisor from "../../images/work-images/advisor.svg";
 import advisee from "../../images/work-images/advisee.svg";
 import eisen from "../../images/work-images/eisen.svg";
@@ -19,10 +19,20 @@ import masoko from "../../images/work-images/masoko.svg";
 import voice from "../../images/work-images/voice.svg";
 import automation from "../../images/work-images/automation.svg";
 import {NavLink as Link} from "react-router-dom";
+import {FaAngleLeft, FaAngleRight} from "react-icons/fa"
 
 const Process = ()=>{
+
+  const [isChecked, setIsChecked] = useState(false);
+
+  const toggleCheck = () => {
+    setIsChecked(!isChecked);
+
+  }
+  const checkbox = isChecked ? advisee : advisor;
+
     return(
-        <div className="px-20">
+        <div className="px-20 sm:px-5 xsm:px-5">
             <h1 className="text-orange text-2xl font-bold">Our Process</h1>
             <h1 className="text-personaKamau text-2xl font-bold">Step 1: Task Mapping</h1>
             <p className="text-2xl text-icons w-3/6 py-2 sm:w-full xsm:w-full">Task mapping helped us assign tasks that will take advantage of each persona&apos;s 
@@ -30,9 +40,13 @@ const Process = ()=>{
             <h1 className="text-taskHeading text-3xl font-bold"> Task Mapping - Advisee</h1>
             <br/>
             <div>
-            <img src={advisor} alt="Advisor" className="w-screen"/>
+            <img src={checkbox} alt="Advisor" className="w-screen"/>
+            <div onClick={toggleCheck} className={`flex border text-darkBlue w-1/6 border-darkBlue rounded cursor-pointer ${isChecked? "float-right":""} sm:w-full xsm:w-full`}>
+                {isChecked?  <><FaAngleRight size={30} className="text-white bg-darkBlue mr-2 rounded"/> <span className="pt-1">Task-Mapping-Advisor </span></> :<> <FaAngleLeft size={30} className="text-white bg-darkBlue mr-2 rounded"/><span className="pt-1">Task-Mapping-Advisee </span></>}
+            </div>
 
             </div>
+            <br/>
             <br/>
            <div>
            <h1 className="text-personaKamau text-2xl font-bold">Step 2: Decision Metrix</h1>
@@ -183,7 +197,7 @@ overall mental model
 
     <h1 className="text-personaKamau text-2xl font-bold pt-2 text-center">View More</h1>
     <br/>
-         <div className="grid grid-cols-3 gap-8 px-20 sm:grid-cols-1 xsm:grid-cols-1 ">
+         <div className="grid grid-cols-3 gap-8 px-20 sm:grid-cols-1 xsm:grid-cols-1 sm:px-5 xsm:px-5">
            <div className="bg-cardPink flex items-center justify-center flex-col ">
             <Link to="/masoko-case">
             {/* <br/> */}
