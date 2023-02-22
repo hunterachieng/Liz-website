@@ -36,7 +36,7 @@ const Voice = () => {
         </div>
         <img src={voice} alt="Voice Case" className="w-7/12 ml-5 sm:w-screen sm:ml-0" />
       </div>
-      <div className="grid grid-cols-2 gap-4 px-20 py-10 sm:grid-cols-1 xsm:grid-cols-1">
+      <div className="grid grid-cols-2 gap-4 px-20 py-10 sm:grid-cols-1 xsm:grid-cols-1 sm:px-5 xsm:px-5">
         <div>
           <h1 className="text-orange font-bold text-2xl">The Ask</h1>
           <p className="text-taskHeading py-5 w-10/12  ">
@@ -60,7 +60,7 @@ const Voice = () => {
           className="w-3/6  ml-20 sm:w-10/12 sm:ml-0 md:w-10/12 xsm:ml-0"
         />
       </div>
-      <div className="grid grid-cols-2 gap-4 px-20 py-10 sm:grid-cols-1 xsm:grid-cols-1">
+      <div className="grid grid-cols-2 gap-4 px-20 py-10 sm:grid-cols-1 xsm:grid-cols-1 sm:px-5 xsm:px-5">
         <div>
           <h1 className="text-orange font-bold text-2xl">
             Objectives &amp; Goals
@@ -106,7 +106,7 @@ const Voice = () => {
         </div>
       </div>
       <div className="bg-grey">
-        <div className="grid grid-cols-2 gap-4 px-20 py-10 sm:grid-cols-1 xsm:grid-cols-1">
+        <div className="grid grid-cols-2 gap-4 px-20 py-10 sm:grid-cols-1 xsm:grid-cols-1 sm:px-5 xsm:px-5">
           <div>
             <h1 className="text-taskHeading font-bold text-2xl">App Users</h1>
             <p className="text-taskHeading py-5 w-10/12  ">
@@ -133,7 +133,7 @@ const Voice = () => {
           />
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-4 px-20 py-10 sm:grid-cols-1 xsm:grid-cols-1">
+      <div className="grid grid-cols-2 gap-4 px-20 py-10 sm:grid-cols-1 xsm:grid-cols-1 sm:px-5 xsm:px-5">
         <div>
           <h1 className="text-taskHeading font-bold text-2xl">
             Research Methodology
@@ -155,7 +155,7 @@ const Voice = () => {
           </p>
         </div>
       </div>
-      <div className="px-20 py-10">
+      <div className="px-20 py-10 sm:px-5 xsm:px-5">
         <div className="text-center">
           <h1 className="text-orange font-bold text-2xl">The Process</h1>
           <br />
@@ -170,7 +170,7 @@ const Voice = () => {
           <img src={designThinking} alt="Design Thinking" />
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-4 px-20 py-10 sm:grid-cols-1 xsm:grid-cols-1">
+      <div className="grid grid-cols-2 gap-4 px-20 py-10 sm:grid-cols-1 xsm:grid-cols-1 sm:px-5 xsm:px-5">
         <div>
           <h1 className="text-orange font-bold text-2xl">
             User Needs and Painpoints
@@ -204,7 +204,7 @@ const Voice = () => {
         />
       </div>
       <div className="bg-grey">
-        <div className="grid grid-cols-2 gap-4 px-20 py-10 sm:grid-cols-1 xsm:grid-cols-1">
+        <div className="grid grid-cols-2 gap-4 px-20 py-10 sm:grid-cols-1 xsm:grid-cols-1 sm:px-5 xsm:px-5">
           <div className="leading-loose">
             <h1 className="text-orange font-bold text-2xl">
               My Voice Unique Features
@@ -231,7 +231,7 @@ const Voice = () => {
           />
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-4 px-20 py-10 sm:grid-cols-1 xsm:grid-cols-1">
+      <div className="grid grid-cols-2 gap-4 px-20 py-10 sm:grid-cols-1 xsm:grid-cols-1 sm:px-5 xsm:px-5">
         <div className="leading-loose">
           <h1 className="text-orange font-bold text-2xl">Recommendations</h1>
           <h1 className="text-personaFaith font-semibold">
@@ -346,7 +346,7 @@ const Voice = () => {
 
     <h1 className="text-personaKamau text-2xl font-bold pt-2 text-center">View More</h1>
     <br/>
-         <div className="grid grid-cols-3 gap-8 px-20 sm:grid-cols-1 xsm:grid-cols-1 ">
+         <div className="grid grid-cols-3 gap-8 px-20 sm:grid-cols-1 xsm:grid-cols-1 sm:px-5 xsm:px-5">
          <div className="bg-cardPink flex items-center justify-center flex-col ">
          <Link to="/masoko-case">
           {/* <br/> */}

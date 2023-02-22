@@ -42,7 +42,7 @@ const Masoko = () => {
         imageAlt="Masoko Case"
         bgColor="bg-cardPink"
       />
-      <div className="grid grid-cols-2 gap-4 px-20 py-10 sm:grid-cols-1 xsm:grid-cols-1">
+      <div className="grid grid-cols-2 gap-4 px-20 py-10 sm:grid-cols-1 xsm:grid-cols-1 sm:px-5 xsm:px-5">
         <div>
           <h1 className="text-orange font-bold text-2xl">The Research</h1>
           <ul className="text-text   py-10 ml-5 w-5/6 leading-loose list-disc md:w-full sm:w-full xsm:w-full">
@@ -68,7 +68,7 @@ const Masoko = () => {
           className="w-3/6  ml-20 sm:w-10/12 sm:ml-0 md:w-10/12 xsm:ml-0"
         />
       </div>
-      <div className="grid grid-cols-2 gap-4 px-20 py-10 sm:grid-cols-1 xsm:grid-cols-1">
+      <div className="grid grid-cols-2 gap-4 px-20 py-10 sm:grid-cols-1 xsm:grid-cols-1 sm:px-5 xsm:px-5">
         <div>
           <h1 className="text-orange font-bold text-2xl">
             The Design Challenge
@@ -97,9 +97,9 @@ const Masoko = () => {
         />
       </div>
       <br />
-      <h1 className="text-orange font-bold text-2xl px-20">Findings</h1>
+      <h1 className="text-orange font-bold text-2xl px-20 sm:px-5 xsm:px-5">Findings</h1>
       <br />
-      <div className="grid grid-cols-2 gap-4 px-20 py-10 sm:grid-cols-1 xsm:grid-cols-1">
+      <div className="grid grid-cols-2 gap-4 px-20 py-10 sm:grid-cols-1 xsm:grid-cols-1 sm:px-5 xsm:px-5">
         <div className="w-11/12">
           <h1 className="text-darkBlue  text-xl">Onboarding</h1>
           <p className="text-text pt-5  ">
@@ -191,8 +191,8 @@ const Masoko = () => {
         </div>
       </div>
       <br/>
-      <img src={listing} alt="Masoko Product Listing" className="px-20 w-full"/>
-      <div className="px-20 py-10">
+      <img src={listing} alt="Masoko Product Listing" className="px-20 w-full sm:px-5 xsm:px-5"/>
+      <div className="px-20 py-10 sm:px-5 xsm:px-5">
 
       <h1 className="text-orange font-bold text-2xl">
             Recommendation
@@ -204,14 +204,14 @@ const Masoko = () => {
            The research team facilitated a one day design workshop after the UX study in order to share lessons learned and agree on the features of the MVP.
           </p>
           <h2 className="text-personaFaith">Vendor journey</h2>
-          <img src={journey} alt="Masoko Vendor Journey" className="px-20 w-full"/>
+          <img src={journey} alt="Masoko Vendor Journey" className="px-20 w-full sm:px-5 xsm:px-5"/>
          
           <p className="text-taskHeading   py-5 w-4/12 md:w-full sm:w-full xsm:w-full">
            The workshop participants included various stakeholders from the Masoko vendor management team as well as the design and development team from Masoko
           </p>
       </div>
      <div className="bg-grey">
-     <div className=" px-20 py-10">
+     <div className=" px-20 py-10 sm:px-5 xsm:px-5">
       <h1 className="text-orange font-bold text-2xl">
             The Outcome
           </h1>
@@ -306,7 +306,7 @@ The idea was to validate as quickly as possible and Articulate the biggest probl
 
     <h1 className="text-personaKamau text-2xl font-bold pt-2 text-center">View More</h1>
     <br/>
-         <div className="grid grid-cols-3 gap-8 px-20 sm:grid-cols-1 xsm:grid-cols-1 ">
+         <div className="grid grid-cols-3 gap-8 px-20 sm:grid-cols-1 xsm:grid-cols-1 sm:px-5 xsm:px-5 ">
           
            <div className="bg-cardGreen flex items-center justify-center flex-col "> 
            <Link to="/voice-case">

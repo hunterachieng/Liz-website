@@ -56,10 +56,10 @@ const Navbar = () => {
       {/* Fix the padding in the a tags 
       Fix active links
       */}
-        <Link to="/" className={({isActive})=>(isActive? "text-darkBlue underline":"text-taskHeading underline")}  >Work</Link>
-        <Link to="/about" className={({isActive})=>(isActive? "text-darkBlue underline":"text-taskHeading underline")} >About</Link>
-        <Link to="/resume" className={({isActive})=>(isActive? "text-darkBlue underline":"text-taskHeading underline")} >Resume</Link>
-        <Link to="/contacts" className={({isActive})=>(isActive? "text-darkBlue underline":"text-taskHeading underline")} >Contacts</Link>
+        <Link to="/" className={({isActive})=>(isActive? "text-darkBlue":"text-taskHeading")}  >Work</Link>
+        <Link to="/about" className={({isActive})=>(isActive? "text-darkBlue":"text-taskHeading")} >About</Link>
+        <Link to="/resume" className={({isActive})=>(isActive? "text-darkBlue":"text-taskHeading")} >Resume</Link>
+        <Link to="/contacts" className={({isActive})=>(isActive? "text-darkBlue":"text-taskHeading")} >Contacts</Link>
       </div>
       <div
         className={`${
