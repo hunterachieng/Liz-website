@@ -21,7 +21,7 @@ const About = ()=>{
         setValue((v) => {
           return v === 3 ? 0 : v + 1;
         });
-      }, 2000);
+      }, 3000);
       return () => clearInterval(interval);
     }, []);
     return(
