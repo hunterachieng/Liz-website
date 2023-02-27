@@ -1,7 +1,7 @@
 import React, {useEffect,useState} from "react";
 import {NavLink as Link} from "react-router-dom";
 import Footer from "../Footer";
-import liz from "../../images/work-images/liz.png"
+import liz from "../../images/work-images/liz.png"; 
 
 const colors = ["bg-personaFaith", "bg-yellow","bg-bgOrange", "bg-dark"]
 const About = ()=>{
@@ -21,7 +21,7 @@ const About = ()=>{
         setValue((v) => {
           return v === 3 ? 0 : v + 1;
         });
-      }, 5000);
+      }, 2000);
       return () => clearInterval(interval);
     }, []);
     return(
@@ -45,7 +45,7 @@ const About = ()=>{
                     <br/>
                     <p><Link>Email me</Link></p>
                     <br/>
-                    <p><Link>LinkedIn</Link></p>
+                    <p><Link to="https://www.linkedin.com/in/elizabeth-wangari-2505a75a/" target="_blank">LinkedIn</Link></p>
                     <br/>
                     {isHovering && (
                       <img src={liz} alt="Liz" width={250}/>

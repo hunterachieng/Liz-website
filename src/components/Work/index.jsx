@@ -84,9 +84,10 @@ const Work = () => {
       <p className="text-white">Small small things <Link to="/about">About me</Link></p>
       <br/>
       <div className="flex justify-between  mt-2 w-1/4 md:w-1/2">
-        <BsMedium className="bg-yellow p-1 text-personaFaith  text-2xl rounded-full m-1" />
-        <FaLinkedinIn className="bg-yellow p-1 text-personaFaith text-2xl rounded-full m-1" />
-        <FaFigma className="bg-yellow p-1 text-personaFaith  text-2xl rounded-full m-1" />
+        <Link to="https://medium.com/@elizabethkagimbi" target="_blank"><BsMedium className="bg-yellow p-1 text-personaFaith  text-2xl rounded-full m-1" /></Link>
+        <Link to="https://www.linkedin.com/in/elizabeth-wangari-2505a75a/" target="_blank"><FaLinkedinIn className="bg-yellow p-1 text-personaFaith text-2xl rounded-full m-1" /></Link>
+       <Link><FaFigma className="bg-yellow p-1 text-personaFaith  text-2xl rounded-full m-1" /></Link> 
+      
       </div>
       </div>
       </div>
