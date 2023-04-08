@@ -333,7 +333,7 @@ const Voice = () => {
           />
            <div className="w-full bg-connect flex items-center justify-center flex-col">
     <img src={connect} alt="Letus Connect" className="mx-auto pt-10" />
-    <button className="border border-darkBlue py-2 px-4 text-darkBlue mx-auto mb-10">Contact me</button>
+    <button className="border border-darkBlue py-2 px-4 text-darkBlue mx-auto mb-10"><a href="mailto:Wangari.design@gmail.com">Contact me</a></button>
     <br/>
     <br/>
     </div>
@@ -350,7 +350,7 @@ const Voice = () => {
          <div className="bg-cardPink flex items-center justify-center flex-col ">
          <Link to="/masoko-case">
           {/* <br/> */}
-          <p className="underline text-white text-lg text-center font-bold">
+          <p className=" text-white text-lg text-center font-bold">
             Masoko Vendor Platform
           </p>
           <br />
@@ -359,14 +359,14 @@ const Voice = () => {
         </div>
            <div className="bg-cardBlue flex items-center justify-center flex-col ">
            <Link to="/aza-case" >
-           <p className="underline text-white text-lg text-center font-bold">AZA Finance Automation</p>
+           <p className=" text-white text-lg text-center font-bold">AZA Finance Automation</p>
            <br/>
            <img src={automation} alt="AZA" />
            </Link>
            </div>
            <div className="bg-cardPurple flex items-center justify-center flex-col "><Link to="/prosper-case">
             {/* <br/> */}
-            <p className="underline text-white text-lg text-center font-bold">My prosper App</p>
+            <p className=" text-white text-lg text-center font-bold">My prosper App</p>
             <br/>
            <img src={prosper} alt="Prosper" className=""/>
            </Link>

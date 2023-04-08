@@ -26,7 +26,7 @@ const About = ()=>{
     }, []);
     return(
  <>
-        <div className={`px-8 ${colors[value]} transition-all ease-in duration-1000 ${colors[value] === "bg-dark"? "text-white": "text-taskHeading "} flex flex-col h-screen sm:h-full xsm:h-fit`}>
+        <div className={`px-8 ${colors[value]} transition-all ease-in duration-1000 ${colors[value] === "bg-dark"? "text-white": "text-taskHeading "} flex flex-col h-screen sm:h-full md:h-full xsm:h-fit`}>
             
             <div className="w-full flex justify-between mt-5">
                 <Link to="/">Work</Link>
@@ -34,8 +34,8 @@ const About = ()=>{
 
             </div>
             <br/>
-            <div className="mx-40 w-9/12 grid grid-cols-2 gap-2 sm:grid-cols-1 sm:w-full sm:mx-2 xsm:grid-cols-1 xsm:w-full xsm:mx-2">
-                <div className="ml-30">
+            <div className="mx-40 w-9/12 grid grid-cols-2 gap-2 sm:grid-cols-1 sm:w-full md:mx-2 md:w-full sm:mx-2 xsm:grid-cols-1 xsm:w-full xsm:mx-2">
+                <div className="ml-30  pl-10 md:ml-10 md:pl-0">
                     <h1 className="text-5xl font-bold hover:cursor-pointer"
                     onMouseOver={handleMouseOver}
                     onMouseOut={handleMouseOut}
@@ -43,7 +43,7 @@ const About = ()=>{
                     <br/>
                     <h1 className="text-4xl font-bold">Let&apos;s Connect</h1>
                     <br/>
-                    <p><Link>Email me</Link></p>
+                    <p><a href="mailto:Wangari.design@gmail.com">Email me</a></p>
                     <br/>
                     <p><Link to="https://www.linkedin.com/in/elizabeth-wangari-2505a75a/" target="_blank">LinkedIn</Link></p>
                     <br/>
@@ -53,7 +53,7 @@ const About = ()=>{
                     )}
                     
                 </div>
-                <div className=" w-10/12">
+                <div className=" w-12/12 md:w-full">
                     <p>I'm a Product Designer who focuses on user experience, visual craft, 
 and product strategy. I have a background in Product Management, 
 UX research, Marketing, and Advertising.

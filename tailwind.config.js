@@ -43,7 +43,8 @@ module.exports = {
     connect:"#F8F8F8",
     dark:"#282828",
     yellow:"#FFFF00",
-    bgOrange :"#E76033"
+    bgOrange :"#E76033",
+    btnBg: "rgba(24, 138, 236, 0.05)"
       },
     },
   },

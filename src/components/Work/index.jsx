@@ -52,7 +52,7 @@ const Work = () => {
   return (
     <div className="sm:bg-dark xsm:bg-dark sm:pl-4 xsm:pl-2" >
       <div className="bg-dark px-40 w-full mt-0 grid grid-cols-3 gap-4 sm:grid-cols-1 sm:px-2 xsm:grid-cols-1 xsm:px-2">
-      <div className="items-start text-text text-justify mt-4 sm:ml-2 sm:w-full sm:text-left md:ml-12 md:w-10/12 md:text-left xsm:w-full xsm:ml-2">
+      <div className="items-start text-text text-justify mt-4 mr-10 sm:ml-2 sm:w-full sm:text-left md:ml-10 md:w-10/12 md:text-left xsm:w-full xsm:ml-2">
         <h1 className="text-3xl text-personaFaith font-bold sm:text-2xl xsm:text-xl">LIZ KAGIMBI</h1>
         <br/>
         <h1 className="font-bold text-white">Product Designer &amp; Researcher</h1>
@@ -68,12 +68,12 @@ const Work = () => {
         </p>
         <br />
 
-        <button className="text-white border border-darkBlue px-8 py-2 items-center rounded font-bold">
-         Let&apos;s Connect
+        <button className="text-white border border-darkBlue px-8 py-2 items-center rounded font-bold bg-btnBg">
+        <a href="mailto:Wangari.design@gmail.com">Let&apos;s Connect</a> 
         </button>
       </div>
-      <img src={cat} alt="Cat" className="sm:hidden xsm:hidden"/>
-      <div className="sm:hidden xsm:hidden" >
+      <img src={cat} alt="Cat" className=" ml-10 sm:hidden xsm:hidden"/>
+      <div className="ml-10 sm:hidden xsm:hidden md:ml-14" >
         <div className="flex justify-between w-1/2 mt-3 md:w-full">
           <Link to="/" className={({isActive})=>(isActive? "text-personaFaith":"text-white")}>Work</Link>
           <p><Link to="/about" className={({isActive})=>(isActive? "text-personaFaith":"text-white")}>More Info</Link></p>

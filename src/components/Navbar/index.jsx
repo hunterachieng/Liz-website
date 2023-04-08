@@ -82,7 +82,7 @@ const Navbar = () => {
         <Link to="/" className={({isActive})=>(isActive? "text-darkBlue ":"text-white")}  >Work</Link>
         <Link to="/about" className={({isActive})=>(isActive? "text-darkBlue ":"text-white")} >About</Link>
         <Link to="/resume" className={({isActive})=>(isActive? "text-darkBlue":"text-white")} >Resume</Link>
-        <Link to="/contacts" className={({isActive})=>(isActive? "text-darkBlue ":"text-white")} >Contacts</Link>
+        <Link to="mailto:Wangari.design@gmail.com" className={({isActive})=>(isActive? "text-darkBlue ":"text-white")} >Contacts</Link>
       </div>
 
       <div

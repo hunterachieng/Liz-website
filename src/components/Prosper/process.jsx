@@ -35,7 +35,7 @@ const Process = ()=>{
         <div className="px-20 sm:px-5 xsm:px-5">
             <h1 className="text-orange text-2xl font-bold">Our Process</h1>
             <h1 className="text-personaKamau text-2xl font-bold">Step 1: Task Mapping</h1>
-            <p className="text-2xl text-icons w-3/6 py-2 sm:w-full xsm:w-full">Task mapping helped us assign tasks that will take advantage of each persona&apos;s 
+            <p className=" text-icons w-3/6 py-2 sm:w-full xsm:w-full">Task mapping helped us assign tasks that will take advantage of each persona&apos;s 
             Wants and interests. We have seen an these interests evolve over time</p>
             <h1 className="text-taskHeading text-3xl font-bold"> Task Mapping - Advisee</h1>
             <br/>
@@ -50,7 +50,7 @@ const Process = ()=>{
             <br/>
            <div>
            <h1 className="text-personaKamau text-2xl font-bold">Step 2: Decision Metrix</h1>
-            <p className="text-2xl text-icons w-3/6 py-2 sm:w-full xsm:w-full">
+            <p className="text-icons w-3/6 py-2 sm:w-full xsm:w-full">
 
             The Eisenhower Matrix helped us prioritise and manage the work load, We categorised these tasks according to their urgency and importance
             </p>
@@ -58,21 +58,21 @@ const Process = ()=>{
            </div>
            <div>
            <h1 className="text-personaKamau text-2xl font-bold">Step 3: User Flow</h1>
-            <p className="text-2xl text-icons w-3/6 py-2 sm:w-full xsm:w-full">
+            <p className="text-icons w-3/6 py-2 sm:w-full xsm:w-full">
 
             We collaborated with the expert/stakeholder to create user flows to to present the correct information to users at the right time, and allow users to complete desired tasks in as few steps as possible.
 Doing this exercise with stakeholders cemented trust and confidence in what we were building , everyone was in alignment which made the process move much quicker and effectively 
             </p>
             <br/>
             <h1 className="text-taskHeading text-xl font-bold">User flow: Advisee Journey</h1>
-            <p className="text-2xl text-icons font-bold w-3/6 py-2 sm:w-full xsm:w-full">
+            <p className=" text-icons font-bold w-3/6 py-2 sm:w-full xsm:w-full">
             I am preparing for an interview later in the afternoon and I need to prep with an expert in the industry
             </p>
             <img src={userFlow} alt="User Flow" className="w-full"/>
            </div>
            <div>
            <h1 className="text-personaKamau text-2xl font-bold pt-2">Step 4: Sketches (Lo-fi wireframes)</h1>
-            <p className="text-2xl text-icons w-3/6 py-4 sm:w-full xsm:w-full">
+            <p className=" text-icons w-3/6 py-4 sm:w-full xsm:w-full">
 
             We quickly did rough layout sketches of concept  to enable the  teams and project stakeholders to quickly 
             determine the best solutions for users. We did this exercise with engineers whereby they helped us navigate 
@@ -183,14 +183,14 @@ overall mental model
     <br/>
     <div className="w-full bg-connect flex items-center justify-center flex-col">
     <img src={connect} alt="Letus Connect" className="mx-auto pt-10" />
-    <button className="border border-darkBlue py-2 px-4 text-darkBlue mx-auto mb-10">Contact me</button>
+    <button className="border border-darkBlue py-2 px-4 text-darkBlue mx-auto mb-10"><a href="mailto:Wangari.design@gmail.com">Contact me</a></button>
     <br/>
     <br/>
     </div>
     <br/>
 
     <div className="flex items-center justify-center">
-    <button className="border bg-darkBlue py-2 px-4 text-white  font-bold"><Link to="/voice-case"></Link>View next casestudy</button>
+    <button className="border bg-darkBlue py-2 px-4 text-white  font-bold"><Link to="/voice-case">View next casestudy</Link></button>
     <button className="border border-darkBlue py-2 px-10 text-darkBlue font-bold ml-2">Resume</button>
     </div>
     <br/>
@@ -201,7 +201,7 @@ overall mental model
            <div className="bg-cardPink flex items-center justify-center flex-col ">
             <Link to="/masoko-case">
             {/* <br/> */}
-            <p className="underline text-white text-center text-lg font-bold">Masoko Vendor Platform</p>
+            <p className="text-white text-center text-lg font-bold">Masoko Vendor Platform</p>
             <br/>
            <img src={masoko} alt="Masoko" className=""/>
            </Link>
@@ -209,14 +209,14 @@ overall mental model
            <div className="bg-cardGreen flex items-center justify-center flex-col "> 
            <Link to="/voice-case">
            <br/>
-           <p className="underline text-white text-center text-lg font-bold">My Voice</p>
+           <p className="text-white text-center text-lg font-bold">My Voice</p>
            <br/>
            <img src={voice} alt="Voice"/>
            </Link>
            </div>
            <div className="bg-cardBlue flex items-center justify-center flex-col ">
             <Link to="/aza-case">
-           <p className="underline text-white text-center text-lg font-bold">AZA Finance Automation</p>
+           <p className="text-white text-center text-lg font-bold">AZA Finance Automation</p>
            <br/>
            <img src={automation} alt="AZA" />
            </Link>

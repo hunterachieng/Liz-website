@@ -24,10 +24,10 @@ const PersonaBanner = ({
         <h2 className={`font-bold text-2xl ${textColor}`}>{name}</h2>
         <p className="text-white text-lg">{role}</p>
       </div>
-      <div className="px-14 pt-4 xsm:px-4">
-        <h1 className={`font-bold text-2xl ${textColor}`}>About</h1>
+      <div className=" pl-4 pt-4 xsm:px-4">
+        <h1 className={`font-bold text-2xl mx-auto ${textColor}`}>About</h1>
         <div className="text-white">
-          <div className="grid grid-cols-2 gap-0 w-full py-2">
+          <div className=" grid grid-cols-2 gap-0 w-12/12">
             <div className="flex">
               {" "}
               <FaBirthdayCake />
