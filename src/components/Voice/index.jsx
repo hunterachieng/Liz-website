@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Layout from "../Layout";
 import Banner from "../../atoms/Banner";
 import voice from "../../images/work-images/voice.svg";
@@ -18,6 +18,11 @@ import prosper from "../../images/work-images/prosper.svg";
 import {NavLink as Link} from "react-router-dom";
 
 const Voice = () => {
+
+  // useEffect(() => {
+  //   window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  // }, []);
+
   return (
     <Layout>
            <div
@@ -364,7 +369,7 @@ const Voice = () => {
            <img src={automation} alt="AZA" />
            </Link>
            </div>
-           <div className="bg-cardPurple flex items-center justify-center flex-col "><Link to="/prosper-case">
+           <div className="bg-cardPurple flex items-center justify-center flex-col "><Link to="/case/prosper-case">
             {/* <br/> */}
             <p className=" text-white text-lg text-center font-bold">My prosper App</p>
             <br/>

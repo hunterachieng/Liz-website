@@ -16,10 +16,10 @@ const Navbar = () => {
   return (
     <nav className="flex justify-between flex-wrap  sm:bg-orange xsm:bg-orange">
       <div className="pt-2 ml-8">
-        <img src={logo} alt="Liz logo" className="sm:hidden xsm:hidden " />
-        <img src={smallLogo} alt="Liz small logo"
+        <Link to="/"><img src={logo} alt="Liz logo" className="sm:hidden xsm:hidden " /></Link>
+        <Link to="/"><img src={smallLogo} alt="Liz small logo"
         className="pt-5 lg:hidden md:hidden"
-        />
+        /></Link>
       </div>
       <button
         onClick={handleClick}
@@ -59,7 +59,7 @@ const Navbar = () => {
         <Link to="/" className={({isActive})=>(isActive? "text-darkBlue":"text-taskHeading")}  >Work</Link>
         <Link to="/about" className={({isActive})=>(isActive? "text-darkBlue":"text-taskHeading")} >About</Link>
         <Link to="/resume" className={({isActive})=>(isActive? "text-darkBlue":"text-taskHeading")} >Resume</Link>
-        <Link to="/contacts" className={({isActive})=>(isActive? "text-darkBlue":"text-taskHeading")} >Contacts</Link>
+        <a href="mailto:Wangari.design@gmail.com" className={({isActive})=>(isActive? "text-darkBlue ":"text-taskHeading")} >Contacts</a>
       </div>
       <div
         className={`${
@@ -82,7 +82,7 @@ const Navbar = () => {
         <Link to="/" className={({isActive})=>(isActive? "text-darkBlue ":"text-white")}  >Work</Link>
         <Link to="/about" className={({isActive})=>(isActive? "text-darkBlue ":"text-white")} >About</Link>
         <Link to="/resume" className={({isActive})=>(isActive? "text-darkBlue":"text-white")} >Resume</Link>
-        <Link to="mailto:Wangari.design@gmail.com" className={({isActive})=>(isActive? "text-darkBlue ":"text-white")} >Contacts</Link>
+        <a href="mailto:Wangari.design@gmail.com" className={({isActive})=>(isActive? "text-darkBlue ":"text-white")} >Contacts</a>
       </div>
 
       <div

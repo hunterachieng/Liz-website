@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import WorkCases from "../../atoms/Work-Cases";
 import voice from "../../images/work-images/voice.svg";
 import prosper from "../../images/work-images/prosper.svg";
@@ -13,6 +13,8 @@ import { BsMedium } from "react-icons/bs";
 import {MdOutlinePets} from "react-icons/md"
 
 const Work = () => {
+
+
   const data = [
     {
         id:1,

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Layout from "../Layout";
 import automation from "../../images/work-images/automation.svg";
 import aza from "../../images/case-studies/aza-team.svg";
@@ -29,6 +29,9 @@ import api from "../../images/work-images/api.svg";
 import { NavLink as Link } from "react-router-dom";
 
 const AzaCase = () => {
+  // useEffect(() => {
+  //   window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  // }, []);
   return (
     <Layout>
       <div
@@ -367,7 +370,9 @@ const AzaCase = () => {
         </div>
 
         <div className="bg-cardGreen flex items-center justify-center flex-col ">
-          <Link to="/case/voice-case">
+          <Link to="/case/voice-case"
+
+          >
             <br />
             <p className=" text-white text-lg text-center font-bold">My Voice</p>
             <br />

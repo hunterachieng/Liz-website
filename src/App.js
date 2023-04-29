@@ -13,10 +13,12 @@ import AzaCase from './components/Aza';
 import Voice from './components/Voice';
 import ProtectedRoute from './components/ProtectedPage';
 import LoginPage from './components/Login';
+import useLocalStorageExpiry from './atoms/StorageExpiry';
 
 
 
 function App() {
+  useLocalStorageExpiry("user", 60);
   return (
     <Router>
       

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Banner from "../../atoms/Banner";
 import Layout from "../Layout";
 import prosper from "../../images/work-images/prosper.svg";
@@ -11,6 +11,10 @@ import ResearchFindings from "./findings";
 import Process from "./process";
 
 const ProsperCase = () => {
+  useEffect(() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
+  
   const behavior = [
     {
       id: "1",

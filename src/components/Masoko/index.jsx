@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Layout from "../Layout";
 import Banner from "../../atoms/Banner";
 import masoko from "../../images/work-images/masoko.svg";
@@ -29,6 +29,10 @@ import prosper from "../../images/work-images/prosper.svg";
 import {NavLink as Link} from "react-router-dom";
 
 const Masoko = () => {
+  // useEffect(() => {
+  //   window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  // }, []);
+
   return (
     <Layout>
       <Banner
@@ -299,7 +303,7 @@ The idea was to validate as quickly as possible and Articulate the biggest probl
     </div>
     <br/>
     <div className="flex items-center justify-center">
-    <button className="border bg-darkBlue py-2 px-4 text-white font-bold"><Link to="/prosper-case">View next casestudy</Link></button>
+    <button className="border bg-darkBlue py-2 px-4 text-white font-bold"><Link to="/case/prosper-case">View next casestudy</Link></button>
     <button className="border border-darkBlue py-2 px-10 text-darkBlue font-bold ml-2">Resume</button>
     </div>
     <br/>
