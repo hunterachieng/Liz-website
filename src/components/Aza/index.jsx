@@ -357,7 +357,7 @@ const AzaCase = () => {
       <br />
       <div className="grid grid-cols-3 px-20 gap-8 sm:grid-cols-1 xsm:grid-cols-1 sm:px-5 xsm:px-5">
         <div className="bg-cardPink flex items-center justify-center flex-col ">
-          <Link to="/masoko-case">
+          <Link to="/case/masoko-case">
             <p className=" text-white text-center text-lg font-bold">
               Masoko Vendor Platform
             </p>
@@ -367,7 +367,7 @@ const AzaCase = () => {
         </div>
 
         <div className="bg-cardGreen flex items-center justify-center flex-col ">
-          <Link to="/voice-case">
+          <Link to="/case/voice-case">
             <br />
             <p className=" text-white text-lg text-center font-bold">My Voice</p>
             <br />
@@ -376,7 +376,7 @@ const AzaCase = () => {
         </div>
 
         <div className="bg-cardPurple flex items-center justify-center flex-col ">
-          <Link to="/prosper-case">
+          <Link to="/case/prosper-case">
             <p className=" text-white text-lg text-center font-bold">
               My prosper App
             </p>

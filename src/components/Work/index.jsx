@@ -20,7 +20,7 @@ const Work = () => {
       content: "Simplifying Onboarding Journey using Open source API",
       imageUrl: automation,
       backgroundColor:"bg-cardBlue",
-      link:"/aza-case"
+      link:"/case/aza-case"
     },
     {
         id:2,
@@ -29,7 +29,7 @@ const Work = () => {
         "How might we design the Masoko Vendorplatform to enable merchants to sell their products and services with ease?",
       imageUrl: masoko,
       backgroundColor:"bg-cardPink",
-      link:"/masoko-case"
+      link:"/case/masoko-case"
     },
     {
         id:3,
@@ -37,7 +37,7 @@ const Work = () => {
         content:"A case of bring purpose through technology, expertise and mentorship during COVID 19 Pandemic",
         imageUrl:prosper,
         backgroundColor:"bg-cardPurple",
-        link:"/prosper-case"
+        link:"/case/prosper-case"
         
     },
     {
@@ -46,7 +46,7 @@ const Work = () => {
         content:"Designing for marginalized communities with low literacy (written and spoken) using simple relatable visuals",
         imageUrl:voice,
         backgroundColor:"bg-cardGreen",
-        link:"/voice-case"
+        link:"/case/voice-case"
     }
   ];
   return (

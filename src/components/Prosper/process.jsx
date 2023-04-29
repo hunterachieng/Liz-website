@@ -199,7 +199,7 @@ overall mental model
     <br/>
          <div className="grid grid-cols-3 gap-8 px-20 sm:grid-cols-1 xsm:grid-cols-1 sm:px-5 xsm:px-5">
            <div className="bg-cardPink flex items-center justify-center flex-col ">
-            <Link to="/masoko-case">
+            <Link to="/case/masoko-case">
             {/* <br/> */}
             <p className="text-white text-center text-lg font-bold">Masoko Vendor Platform</p>
             <br/>
@@ -207,7 +207,7 @@ overall mental model
            </Link>
            </div>
            <div className="bg-cardGreen flex items-center justify-center flex-col "> 
-           <Link to="/voice-case">
+           <Link to="/case/voice-case">
            <br/>
            <p className="text-white text-center text-lg font-bold">My Voice</p>
            <br/>
@@ -215,7 +215,7 @@ overall mental model
            </Link>
            </div>
            <div className="bg-cardBlue flex items-center justify-center flex-col ">
-            <Link to="/aza-case">
+            <Link to="/case/aza-case">
            <p className="text-white text-center text-lg font-bold">AZA Finance Automation</p>
            <br/>
            <img src={automation} alt="AZA" />

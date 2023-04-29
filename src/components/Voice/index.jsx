@@ -339,7 +339,7 @@ const Voice = () => {
     </div>
     <br/>
     <div className="flex items-center justify-center">
-    <button className="border bg-darkBlue py-2 px-4 text-white font-bold" ><Link to="/aza-case">View next casestudy</Link></button>
+    <button className="border bg-darkBlue py-2 px-4 text-white font-bold" ><Link to="/case/aza-case">View next casestudy</Link></button>
     <button className="border border-darkBlue py-2 px-10 text-darkBlue font-bold ml-2">Resume</button>
     </div>
     <br/>
@@ -348,7 +348,7 @@ const Voice = () => {
     <br/>
          <div className="grid grid-cols-3 gap-8 px-20 sm:grid-cols-1 xsm:grid-cols-1 sm:px-5 xsm:px-5">
          <div className="bg-cardPink flex items-center justify-center flex-col ">
-         <Link to="/masoko-case">
+         <Link to="/case/masoko-case">
           {/* <br/> */}
           <p className=" text-white text-lg text-center font-bold">
             Masoko Vendor Platform
@@ -358,7 +358,7 @@ const Voice = () => {
           </Link>
         </div>
            <div className="bg-cardBlue flex items-center justify-center flex-col ">
-           <Link to="/aza-case" >
+           <Link to="/case/aza-case" >
            <p className=" text-white text-lg text-center font-bold">AZA Finance Automation</p>
            <br/>
            <img src={automation} alt="AZA" />

@@ -309,7 +309,7 @@ The idea was to validate as quickly as possible and Articulate the biggest probl
          <div className="grid grid-cols-3 gap-8 px-20 sm:grid-cols-1 xsm:grid-cols-1 sm:px-5 xsm:px-5 ">
           
            <div className="bg-cardGreen flex items-center justify-center flex-col "> 
-           <Link to="/voice-case">
+           <Link to="/case/voice-case">
           
            <br/>
            <p className=" text-white text-lg text-center font-bold">My Voice</p>
@@ -318,14 +318,14 @@ The idea was to validate as quickly as possible and Articulate the biggest probl
            </Link>
            </div>
            <div className="bg-cardBlue flex items-center justify-center flex-col ">
-            <Link to="/aza-case">
+            <Link to="/case/aza-case">
            <p className=" text-white text-lg text-center font-bold">AZA Finance Automation</p>
            <br/>
            <img src={automation} alt="AZA" />
            </Link>
            </div>
            <div className="bg-cardPurple flex items-center justify-center flex-col ">
-            <Link to="/prosper-case">
+            <Link to="/case/prosper-case">
             <p className=" text-white text-lg text-center font-bold">My prosper App</p>
             <br/>
            <img src={prosper} alt="Prosper" className=""/>
