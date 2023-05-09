@@ -277,7 +277,7 @@ The idea was to validate as quickly as possible and Articulate the biggest probl
            Payment Management 
           </h1>
           <br/>
-          <p className="text-darkBlue text-xl py-5">Difficulties in pyments reconciliation</p>
+          <p className="text-darkBlue text-xl py-5">Difficulties in payments reconciliation</p>
           <p className="text-lightGrey   w-5/12 md:w-full sm:w-full xsm:w-full">
             The structure of the account statements makes it difficult to reconcile payments. Vendors are unable to match a 
             payment to a particular order: 

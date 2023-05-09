@@ -10,7 +10,7 @@ const WorkCases = ({imageUrl,heading,content, bgColor})=>{
 
             <p >{content}</p>
             <br/>
-            <img src={imageUrl} alt="Case study images" className={`hover:scale-75 ease-in duration-500 ${imageUrl=== "/static/media/masoko.0fbc07b36a323cf48a0b8128120190f4.svg" ? "max-h-80 w-10/12 md:max-h-80 md:w-11/12":"max-h-80 md:max-h-96"}`}/>
+            <img src={imageUrl} alt="Case study images" className={`hover:scale-75 ease-in duration-500 ${imageUrl=== "/static/media/masoko.0fbc07b36a323cf48a0b8128120190f4.svg" ? " aspect-[4/3] max-h-72 md:aspect-[3/2] lg:aspect-[4/2]":" max-h-80 aspect-[2/2] md:aspect-[4/3] lg:aspect-[3/2] "}`}/>
             <br/>
            
             

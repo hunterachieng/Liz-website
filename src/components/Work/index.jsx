@@ -54,7 +54,7 @@ const Work = () => {
   return (
     <div className="sm:bg-dark xsm:bg-dark sm:pl-4 xsm:pl-2" >
       <div className="bg-dark px-40 w-full mt-0 grid grid-cols-3 gap-4 sm:grid-cols-1 sm:px-2 xsm:grid-cols-1 xsm:px-2">
-      <div className="items-start text-text text-justify mt-4 mr-10 sm:ml-2 sm:w-full sm:text-left md:ml-10 md:w-10/12 md:text-left xsm:w-full xsm:ml-2">
+      <div className="items-start text-text  mt-4 mr-10 sm:ml-2 sm:w-full sm:text-left md:ml-10 md:w-10/12 md:text-left xsm:w-full xsm:ml-2">
         <h1 className="text-3xl text-personaFaith font-bold sm:text-2xl xsm:text-xl">LIZ KAGIMBI</h1>
         <br/>
         <h1 className="font-bold text-white">Product Designer &amp; Researcher</h1>
