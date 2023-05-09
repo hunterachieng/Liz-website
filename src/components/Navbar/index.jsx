@@ -23,7 +23,7 @@ const Navbar = () => {
       </div>
       <button
         onClick={handleClick}
-        className=" inline-flex p-3 hover:bg-orange rounded lg:hidden md:hidden text-[#ffffff] ml-auto hover:text-white outline-none m-2"
+        className=" hidden inline-flex p-3 hover:bg-orange rounded sm:inline-flex lg:hidden md:hidden text-[#ffffff] ml-auto hover:text-white outline-none m-2"
       >
       {!active?   <svg
           className="w-6 h-6"
@@ -56,10 +56,10 @@ const Navbar = () => {
       {/* Fix the padding in the a tags 
       Fix active links
       */}
-        <Link to="/" className={({isActive})=>(isActive? "text-darkBlue":"text-taskHeading")}  >Work</Link>
-        <Link to="/about" className={({isActive})=>(isActive? "text-darkBlue":"text-taskHeading")} >About</Link>
-        <Link to="/resume" className={({isActive})=>(isActive? "text-darkBlue":"text-taskHeading")} >Resume</Link>
-        <a href="mailto:Wangari.design@gmail.com" className={({isActive})=>(isActive? "text-darkBlue ":"text-taskHeading")} >Contacts</a>
+        <Link to="/" className={({isActive})=>(isActive? "text-darkBlue hover:text-gray-300":"text-taskHeading hover:text-gray-300")}  >Work</Link>
+        <Link to="/about" className={({isActive})=>(isActive? "text-darkBlue hover:text-gray-300":"text-taskHeading hover:text-gray-300")} >About</Link>
+        <Link to="/resume" className={({isActive})=>(isActive? "text-darkBlue hover:text-gray-300":"text-taskHeading hover:text-gray-300")} >Resume</Link>
+        <a href="mailto:Wangari.design@gmail.com" className={({isActive})=>(isActive? "text-darkBlue hover:text-gray-300 ":"text-taskHeading hover:text-gray-300")} >Contacts</a>
       </div>
       <div
         className={`${
@@ -79,10 +79,10 @@ const Navbar = () => {
             }
       >
         {/* className={({isActive})=>(isActive? "text-text":"text-white")} */}
-        <Link to="/" className={({isActive})=>(isActive? "text-darkBlue ":"text-white")}  >Work</Link>
-        <Link to="/about" className={({isActive})=>(isActive? "text-darkBlue ":"text-white")} >About</Link>
-        <Link to="/resume" className={({isActive})=>(isActive? "text-darkBlue":"text-white")} >Resume</Link>
-        <a href="mailto:Wangari.design@gmail.com" className={({isActive})=>(isActive? "text-darkBlue ":"text-white")} >Contacts</a>
+        <Link to="/" className={({isActive})=>(isActive? "text-darkBlue hover:text-gray-300 ":"text-white hover:text-gray-300")}  >Work</Link>
+        <Link to="/about" className={({isActive})=>(isActive? "text-darkBlue hover:text-gray-300":"text-white hover:text-gray-300")} >About</Link>
+        <Link to="/resume" className={({isActive})=>(isActive? "text-darkBlue hover:text-gray-300":"text-white hover:text-gray-300")} >Resume</Link>
+        <a href="mailto:Wangari.design@gmail.com" className={({isActive})=>(isActive? "text-darkBlue hover:text-gray-300":"text-white hover:text-gray-300")} >Contacts</a>
       </div>
 
       <div
