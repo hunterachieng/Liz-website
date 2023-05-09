@@ -88,7 +88,7 @@ const Work = () => {
       <div className="flex justify-between  mt-2 w-1/4 md:w-1/2">
         <a href="https://medium.com/@elizabethkagimbi" target="_blank"><BsMedium className="bg-yellow p-1 text-personaFaith  text-2xl rounded-full m-1" /></a>
         <a href="https://www.linkedin.com/in/elizabeth-wangari-2505a75a/" target="_blank"><FaLinkedinIn className="bg-yellow p-1 text-personaFaith text-2xl rounded-full m-1" /></a>
-       <a href="https://www.figma.com/proto/E9WpErhpqS35WLMypk3yrH/Strategy-presentation?page-id=0%3A1&type=design&node-id=0-4&viewport=2594%2C452%2C0.13&scaling=min-zoom&starting-point-node-id=0%3A4"><FaFigma className="bg-yellow p-1 text-personaFaith  text-2xl rounded-full m-1" /></a> 
+       <a href="https://www.figma.com/proto/E9WpErhpqS35WLMypk3yrH/Strategy-presentation?page-id=0%3A1&type=design&node-id=0-4&viewport=2594%2C452%2C0.13&scaling=min-zoom&starting-point-node-id=0%3A4" target="_blank"><FaFigma className="bg-yellow p-1 text-personaFaith  text-2xl rounded-full m-1" /></a> 
       
       </div>
       </div>

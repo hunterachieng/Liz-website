@@ -345,7 +345,7 @@ const Voice = () => {
     <br/>
     <div className="flex items-center justify-center">
     <button className="border bg-darkBlue py-2 px-4 text-white font-bold" ><Link to="/case/aza-case">View next casestudy</Link></button>
-    <button className="border border-darkBlue py-2 px-10 text-darkBlue font-bold ml-2"><a href="https://www.dropbox.com/s/64f51687txigid1/lizkagimbi%20Resume.pdf?dl=0">Resume</a></button>
+    <button className="border border-darkBlue py-2 px-10 text-darkBlue font-bold ml-2"><a href="https://www.dropbox.com/s/64f51687txigid1/lizkagimbi%20Resume.pdf?dl=0" target="_blank">Resume</a></button>
     </div>
     <br/>
 

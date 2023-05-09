@@ -30,7 +30,7 @@ const About = ()=>{
             
             <div className="w-full flex justify-between mt-5">
                 <Link to="/">Work</Link>
-                <a href="https://www.dropbox.com/s/64f51687txigid1/lizkagimbi%20Resume.pdf?dl=0">Resume</a>
+                <a href="https://www.dropbox.com/s/64f51687txigid1/lizkagimbi%20Resume.pdf?dl=0" target="_blank">Resume</a>
 
             </div>
             <br/>
