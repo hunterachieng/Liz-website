@@ -30,7 +30,7 @@ const About = ()=>{
             
             <div className="w-full flex justify-between mt-5">
                 <Link to="/">Work</Link>
-                <Link>Resume</Link>
+                <a href="https://www.dropbox.com/s/64f51687txigid1/lizkagimbi%20Resume.pdf?dl=0">Resume</a>
 
             </div>
             <br/>
@@ -45,7 +45,7 @@ const About = ()=>{
                     <br/>
                     <p><a href="mailto:Wangari.design@gmail.com">Email me</a></p>
                     <br/>
-                    <p><Link to="https://www.linkedin.com/in/elizabeth-wangari-2505a75a/" target="_blank">LinkedIn</Link></p>
+                    <p><a href="https://www.linkedin.com/in/elizabeth-wangari-2505a75a/" target="_blank">LinkedIn</a></p>
                     <br/>
                     {isHovering && (
                       <img src={liz} alt="Liz" width={250}/>
