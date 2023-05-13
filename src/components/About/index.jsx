@@ -3,7 +3,7 @@ import {NavLink as Link} from "react-router-dom";
 import Footer from "../Footer";
 import liz from "../../images/work-images/liz.png"; 
 
-const colors = ["bg-personaFaith", "bg-yellow","bg-bgOrange", "bg-dark"]
+const colors = ["bg-aboutBlue", "bg-yellow","bg-bgOrange", "bg-dark"]
 const About = ()=>{
 
     const [value, setValue] = useState(0);

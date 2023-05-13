@@ -2,6 +2,7 @@
 import React, { useState, useContext } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { AuthContext } from "../AuthContext";
+import {NavLink as Link} from "react-router-dom";
 
 const PASSWORD = process.env.REACT_APP_PROTECTED_PAGE_PASSWORD
 
@@ -49,10 +50,13 @@ const LoginPage = () => {
           onChange={(e) => setInputPassword(e.target.value)}
         />
         <br />
-        <button type="submit"
+       <div className="flex justify-between">
+       <button type="submit"
         className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors"
 
         >Confirm</button>
+        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors"><Link to="/">Back</Link></button>
+       </div>
       </form>
     </div>
   </div>

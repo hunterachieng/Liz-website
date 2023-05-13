@@ -56,10 +56,10 @@ const Navbar = () => {
       {/* Fix the padding in the a tags 
       Fix active links
       */}
-        <Link to="/" className={({isActive})=>(isActive? "text-darkBlue hover:text-gray-300":"text-taskHeading hover:text-gray-300")}  >Work</Link>
-        <Link to="/about" className={({isActive})=>(isActive? "text-darkBlue hover:text-gray-300":"text-taskHeading hover:text-gray-300")} >About</Link>
-        <Link to="/resume" className={({isActive})=>(isActive? "text-darkBlue hover:text-gray-300":"text-taskHeading hover:text-gray-300")} >Resume</Link>
-        <a href="mailto:Wangari.design@gmail.com" className={({isActive})=>(isActive? "text-darkBlue hover:text-gray-300 ":"text-taskHeading hover:text-gray-300")} >Contacts</a>
+        <Link to="/" className={({isActive})=>(isActive? "text-darkBlue hover:text-personaFaith":"text-taskHeading hover:text-personaFaith")}  >Work</Link>
+        <Link to="/about" className={({isActive})=>(isActive? "text-darkBlue hover:text-personaFaith":"text-taskHeading hover:text-personaFaith")} >About</Link>
+        <Link to="/resume" className={({isActive})=>(isActive? "text-darkBlue hover:text-personaFaith":"text-taskHeading hover:text-personaFaith")} >Resume</Link>
+        <a href="mailto:Wangari.design@gmail.com" className={({isActive})=>(isActive? "text-darkBlue hover:text-personaFaith ":"text-taskHeading hover:text-personaFaith")} >Contacts</a>
       </div>
       <div
         className={`${
@@ -79,10 +79,10 @@ const Navbar = () => {
             }
       >
         {/* className={({isActive})=>(isActive? "text-text":"text-white")} */}
-        <Link to="/" className={({isActive})=>(isActive? "text-darkBlue hover:text-gray-300 ":"text-white hover:text-gray-300")}  >Work</Link>
-        <Link to="/about" className={({isActive})=>(isActive? "text-darkBlue hover:text-gray-300":"text-white hover:text-gray-300")} >About</Link>
-        <Link to="/resume" className={({isActive})=>(isActive? "text-darkBlue hover:text-gray-300":"text-white hover:text-gray-300")} >Resume</Link>
-        <a href="mailto:Wangari.design@gmail.com" className={({isActive})=>(isActive? "text-darkBlue hover:text-gray-300":"text-white hover:text-gray-300")} >Contacts</a>
+        <Link to="/" className={({isActive})=>(isActive? "text-darkBlue hover:text-personaFaith ":"text-white hover:text-personaFaith")}  >Work</Link>
+        <Link to="/about" className={({isActive})=>(isActive? "text-darkBlue hover:text-personaFaith":"text-white hover:text-personaFaith")} >About</Link>
+        <Link to="/resume" className={({isActive})=>(isActive? "text-darkBlue hover:text-personaFaith":"text-white hover:text-personaFaith")} >Resume</Link>
+        <a href="mailto:Wangari.design@gmail.com" className={({isActive})=>(isActive? "text-darkBlue hover:text-personaFaith":"text-white hover:text-personaFaith")} >Contacts</a>
       </div>
 
       <div

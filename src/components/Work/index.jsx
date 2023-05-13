@@ -69,10 +69,10 @@ const Work = () => {
           Currently designing for impact and Empowering girls venture into tech
         </p>
         <br />
-
+        <a href="mailto:Wangari.design@gmail.com">
         <button className="text-white border border-darkBlue px-8 py-2 items-center rounded font-bold bg-btnBg">
-        <a href="mailto:Wangari.design@gmail.com">Let&apos;s Connect</a> 
-        </button>
+       Let&apos;s Connect
+        </button></a> 
       </div>
       <img src={cat} alt="Cat" className=" ml-10 sm:hidden xsm:hidden"/>
       <div className="ml-10 sm:hidden xsm:hidden md:ml-14" >
